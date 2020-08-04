@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Flag-DE</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="25" cy="25" r="25"></circle>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page" transform="translate(-420.000000, -736.000000)">
+            <g id="Fold-1" transform="translate(0.000000, 46.000000)">
+                <g id="Languages" transform="translate(0.000000, 675.000000)">
+                    <g id="Language-2" transform="translate(420.000000, 15.000000)">
+                        <g id="Flag-DE">
+                            <g id="Flag/DE">
+                                <g id="Flag">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <g id="Mask"></g>
+                                    <g id="German" mask="url(#mask-2)">
+                                        <g transform="translate(24.590909, 25.454545) rotate(-270.000000) translate(-24.590909, -25.454545) translate(-5.409091, -4.045455)">
+                                            <rect id="Rectangle-30" fill="#0C2651" x="0" y="0" width="29.5454545" height="58.1818182"></rect>
+                                            <rect id="Rectangle-30-Copy-2" fill="#FFD86F" x="29.5454545" y="0" width="29.5454545" height="58.1818182"></rect>
+                                            <rect id="Rectangle-30-Copy" fill="#FF4442" x="21.3636364" y="0" width="16.3636364" height="58.1818182"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

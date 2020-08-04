@@ -1,0 +1,15 @@
+.Proyects {
+    position: relative;
+    z-index: 100;
+    border: solid 1px red;
+    height: 900px;
+    background-color: white;
+}
+
+.title {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    border: solid 1px saddlebrown;
+    text-align: left;
+}

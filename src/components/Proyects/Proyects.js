@@ -1,12 +1,16 @@
 import React from 'react';
+import classes from './Proyects.module.css';
+import Proyect from '../Proyect/Proyect';
+
 
 
 
 const Proyects = (props) => {
 
     return (
-        <div>
-            <p>This is the Proyects</p>
+        <div className={classes.Proyects}>
+            <h2 className={classes.title}>Proyects</h2>
+            <Proyect />
         </div>
         
         );

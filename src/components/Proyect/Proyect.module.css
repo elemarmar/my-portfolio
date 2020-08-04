@@ -1,0 +1,21 @@
+.Proyect {
+    border: solid 1px blue;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+
+}
+
+.ProyectCard {
+    width: 400px;
+    height: 200px;
+    border: solid 1px green;
+}
+
+.ProyectDescription {
+    border: solid 1px rgb(78, 78, 6);
+    height: 180px;
+    width: 380px;
+}

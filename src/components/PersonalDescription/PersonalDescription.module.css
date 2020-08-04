@@ -1,0 +1,14 @@
+.PresentationText {
+    text-align: left;
+    font-size: 30px;
+    border: solid 1px blue;
+    position: relative;
+    z-index: 7;
+    width: 600px;
+    margin: auto;
+    word-spacing: 10px;
+}
+
+.Text {
+    color: blue;
+}

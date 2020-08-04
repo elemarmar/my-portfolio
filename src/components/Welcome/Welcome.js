@@ -29,7 +29,7 @@ class Welcome extends React.Component {
     render() {
 
         return (
-            <div>
+            <div className={classes.WelcomeCard}>
                 <p>Do you know the formula...?</p>
                 <h3>Em<sup>2</sup>=<span>{this.state.displayedHint}</span></h3>
                 <button 

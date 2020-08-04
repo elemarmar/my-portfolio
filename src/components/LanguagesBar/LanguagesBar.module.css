@@ -1,0 +1,57 @@
+.LanguagesBar {
+    /* background-color: rgba(15, 111, 201, 0.664); */
+    position: absolute;
+
+
+    position: absolute;
+    width: 100%;
+    width: 300px;
+    bottom: 58px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background: rgba(255,255,255,0.05); */
+    padding: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 10;
+    border: 1px solid red;
+}
+
+.Language {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.LanguageFlag {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+
+.LanguageFlag:hover,
+.LanguageFlagRandom:hover {
+    cursor: pointer;
+    opacity: 1;
+    border: 2px solid red;
+}
+
+.LanguageFlag img {
+    max-width: 100%;
+}
+
+.LanguageFlagRandom {
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+    margin-right: 10px;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+

@@ -3,6 +3,7 @@ import Presentation from '../Presentation/Presentation';
 import Proyects from  '../Proyects/Proyects';
 import Skills from '../Skills/Skills';
 import Random from '../Random/Random';
+import NavBar from '../NavBar/NavBar';
 
 
 const Home = (props) => {
@@ -10,7 +11,8 @@ const Home = (props) => {
     return (
         <div>
             <Presentation />
-            <Skills />
+            <NavBar />
+            {/* <Skills /> */}
             <Proyects />
             <Random />
         </div>

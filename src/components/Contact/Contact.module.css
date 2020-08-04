@@ -1,0 +1,17 @@
+.Contact {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(238, 135, 119); */
+    padding: 20px 60px;
+    position: absolute;
+    bottom: -20px;
+    z-index: 4;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+}
+
+.Email {
+    color: white;
+}

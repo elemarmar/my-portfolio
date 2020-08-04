@@ -1,0 +1,95 @@
+.Presentation {
+    border: 1px solid salmon;
+    padding: 80px 30px 190px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.PresentationName {
+    /* color: white; */
+}
+
+
+.BallTop{
+    position: absolute;
+    z-index: 6;
+    top: -56.25rem;
+    right: -43.75rem;
+    transform: rotate(-142deg);
+    animation-name: spin;
+    animation-duration: 50000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-image: url('../../assets/images/ball.svg');
+    width: 76.5rem;
+    height: 72rem;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: all ease 1s;
+}
+
+.BallTop:hover {
+    top: -50rem;
+    right: -40.75rem;
+    cursor: pointer;
+}
+
+.BallBottom {
+    position: absolute;
+    z-index: 1;
+    bottom: -63.125rem;
+    left: -37.5rem;
+    transform: rotate(-22deg);
+    animation-name: spin;
+    animation-duration: 50000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 76.5rem;
+    height: 72rem;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../../assets/images/ballbottom.svg);
+    transition: all ease 1s;
+}
+
+.BallBottom:hover {
+    bottom: -65.125rem;
+    left: -40.5rem;
+    cursor: pointer;
+}
+
+
+@keyframes spin {
+    from {
+      transform:rotate(0deg);
+    }
+    to {
+      transform:rotate(360deg);
+    }
+  }
+
+
+  /********/
+
+  .letter {
+    display: inline-block;
+    position: relative;
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 25px;
+  }
+
+  .letter.in {
+    transform: rotateX(-90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  .letter.out {
+    transform: rotateX(-90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
