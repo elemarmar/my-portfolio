@@ -1,0 +1,114 @@
+[
+    {
+        "id": "1",
+        "title": "Langreader",
+        "description": "A website that allows you to upload a text and study the words, getting translations from words, getting stats, etc.",
+        "tags": ["js", "css", "html"],
+        "image": {
+            "code": "",
+            "website": ""
+        },
+        "url": {
+            "website": "",
+            "repo": "https://github.com/elemarmar/lang-reader"
+        }
+    },
+    {
+        "id": "2",
+        "title": "Langrecommendator",
+        "description": "This is the description of the project",
+        "tags": ["js", "css", "html"],
+        "image": {
+            "code": "",
+            "website": ""
+        },
+        "url": {
+            "website": "",
+            "repo": ""
+        }
+    },
+    {
+        "id": "3",
+        "title": "Anki templates",
+        "description": "This is the description of the project",
+        "tags": ["js", "css", "html"],
+        "image": {
+            "code": "",
+            "website": ""
+        },
+        "url": {
+            "website": "",
+            "repo": ""
+        }
+    },
+    {
+        "id": "4",
+        "title": "Guilty Cinephiles",
+        "description": "This is the description of the project",
+        "tags": ["js", "css", "html"],
+        "image": {
+            "code": "",
+            "website": ""
+        },
+        "url": {
+            "website": "",
+            "repo": ""
+        }
+    },
+    {
+        "id": "5",
+        "title": "MyPokédex",
+        "description": "This is the description of the project",
+        "tags": ["js", "css", "html"],
+        "image": {
+            "code": "",
+            "website": ""
+        },
+        "url": {
+            "website": "",
+            "repo": ""
+        }
+    },
+    {
+        "id": "6",
+        "title": "Quinteto de sudo",
+        "description": "This is the description of the project",
+        "tags": ["js", "css", "html"],
+        "image": {
+            "code": "",
+            "website": ""
+        },
+        "url": {
+            "website": "",
+            "repo": ""
+        }
+    },
+    {
+        "id": "7",
+        "title": "Maniac Coders",
+        "description": "This is the description of the project",
+        "tags": ["js", "css", "html"],
+        "image": {
+            "code": "",
+            "website": ""
+        },
+        "url": {
+            "website": "",
+            "repo": ""
+        }
+    },
+    {
+        "id": "8",
+        "title": "Zodiac thing",
+        "description": "This is the description of the project",
+        "tags": ["js", "css", "html"],
+        "image": {
+            "code": "",
+            "website": ""
+        },
+        "url": {
+            "website": "",
+            "repo": ""
+        }
+    }
+]
