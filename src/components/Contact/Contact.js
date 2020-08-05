@@ -10,10 +10,10 @@ const Contact = (props) => {
     return (
         <ul className={classes.Contact}>
             <li>
-                <span className={classes.Email}></span>
+                <a href="mailto:elemartinezmarin@gmail.com" className={classes.Email}></a>
             </li>
             <li>
-                <span className={classes.Phone}></span>
+                <a href="tel:676353253" className={classes.Phone}></a>
             </li>
             <li>
                 <span className={classes.Cv}></span>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="650" height="500" version="1.1" viewBox="0 0 650.00001 500.00001" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="a" x="-.068536" y="-.10456" width="1.1371" height="1.2091" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="13.463792"/>
+  </filter>
+ </defs>
+ <g transform="translate(0 -552.36)">
+  <rect y="552.36" width="650" height="500" fill="#6dd4c7"/>
+ </g>
+ <rect x="89.262" y="110.62" width="471.48" height="309.03" ry="0" fill-opacity=".090196" filter="url(#a)"/>
+ <rect x="89.262" y="95.484" width="471.48" height="309.03" ry="0" fill="#fff"/>
+ <rect x="89.262" y="95.484" width="471.48" height="16.293" fill="#ededed"/>
+ <g transform="matrix(.69034 0 0 .69034 -128.25 32.09)">
+  <circle cx="326.88" cy="103.63" r="4.0733" fill="#62d5e9"/>
+  <circle cx="351.32" cy="103.63" r="4.0733" fill="#ff8d72"/>
+  <circle cx="339.1" cy="103.63" r="4.0733" fill="#58f9a2"/>
+ </g>
+</svg>

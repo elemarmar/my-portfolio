@@ -1,4 +1,27 @@
 .About {
+    color: white;
+    background-color: rgb(111,70,228);
     border: solid 2px green;
     padding: 100px 20px;
+}
+
+.Menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Menu button {
+    border: none;
+    padding: 3px 5px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #ff8443;
+    transition: all .5s ease;
+}
+
+.Menu button:hover {
+    cursor: pointer;
+    background-color: rgb(111,70,228);
+    color: white;
 }

@@ -10,10 +10,10 @@ const ContactSocial = (props) => {
     return (
         <ul className={classes.ContactSocial}>
             <li>
-                <span className={classes.Linkedin}></span>
+                <a href="https://www.linkedin.com/in/elenamartinezmarin/" target="_blank" className={classes.Linkedin}></a>
             </li>
             <li>
-                <span className={classes.Github}></span>
+                <a href="https://github.com/elemarmar" target="_blank" className={classes.Github}></a>
             </li>
 
         </ul>

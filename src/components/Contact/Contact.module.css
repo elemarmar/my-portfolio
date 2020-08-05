@@ -10,12 +10,11 @@ import phone from '../../assets/images/Contact/phone.svg' */
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     /* background-color: rgb(238, 135, 119); */
     padding: 20px 60px;
     position: absolute;
     bottom: -20px;
-    z-index: 4;
+    z-index: 10;
     left: 0;
     right: 0;
     font-size: 16px;
@@ -23,6 +22,7 @@ import phone from '../../assets/images/Contact/phone.svg' */
 
 .Email {
     display: inline-block;
+    color: transparent;
     height: 25px;
     width: 25px;
     background-image: url('../../assets/images/Contact/email.svg');
@@ -47,7 +47,7 @@ import phone from '../../assets/images/Contact/phone.svg' */
 .Email:hover::after{
     position: absolute;
     opacity: 1;
-    left: 0;
+    left: 10px;
     content:'elemartinezmarin@gmail.com';
     width: 290px;
 }

@@ -15,7 +15,7 @@ const Proyect = (props) => {
     const intersection = useIntersection(sectionRef, {
         root: null,
         rootMargin: "0px",
-        threshold: 0.9
+        threshold: 0.5
     });
 
     // Animation for fading in
@@ -39,7 +39,7 @@ const Proyect = (props) => {
     };
 
     // checking to see when the viewport is visible to the user
-    intersection && intersection.intersectionRatio < 0.9
+    intersection && intersection.intersectionRatio < 0.5
     ? fadeOut(".fadeIn")
     : fadeIn(".fadeIn");
 
@@ -47,7 +47,7 @@ const Proyect = (props) => {
     return (
         <div ref={sectionRef} className={`${classes.Proyect}`}>
             <h3 className={`${classes.ProyectTitle} fadeIn`}>{props.title}</h3>
-            <div className={`${classes.ProyectCard} fadeIn`}>Proyects</div>
+            <div className={`${classes.ProyectCard} fadeIn`}></div>
             <div className={`${classes.ProyectDescription} fadeIn`}>{props.description}</div>
         </div>
         

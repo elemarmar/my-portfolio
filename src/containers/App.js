@@ -6,11 +6,8 @@ import Home from '../components/Home/Home';
 
 class App extends React.Component {
 
- 
- 
-
-
   render() {
+    console.log('props', this.props);
     return (
       <div className="App">
         <Switch>

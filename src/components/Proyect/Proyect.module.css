@@ -1,5 +1,5 @@
 .Proyect {
-    border: solid 1px blue;
+    border: solid 1px rgb(28,52,124);
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -7,22 +7,33 @@
     align-items: center;
     padding: 200px 40px;
 
+
 }
 
 .ProyectTitle {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
     flex-basis: 100%;
-    color: red;
+    color: rgb(28,52,124);
 }
 
 .ProyectCard {
-    width: 400px;
-    height: 200px;
-    border: solid 1px green;
-    flex-basis: 50%;
+    width: 355px;
+    height: 230px;
+    flex-basis: 355px;
+    background-image: url('../../assets/images/terminal.svg');
+    background-size: 490px;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px #ccc;
 }
 
 .ProyectDescription {
-    border: solid 1px rgb(78, 78, 6);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(63, 63, 63);
+    color: rgb(28,52,124);
+    /* border: solid 1px rgb(78, 78, 6); */
     height: 180px;
     width: 380px;
     flex-basis: 40%;

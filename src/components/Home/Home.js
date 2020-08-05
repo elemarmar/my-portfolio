@@ -5,7 +5,7 @@ import Skills from '../Skills/Skills';
 import Random from '../Random/Random';
 import NavBar from '../NavBar/NavBar';
 import About from '../About/About'
-
+import { Route, Link } from 'react-router-dom'
 
 const Home = (props) => {
 
