@@ -1,0 +1,61 @@
+
+.presentation-title {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    text-align: left;
+    position: relative;
+    z-index: 5;
+    /* display: inline-block; */
+    max-width: 650px;
+    margin: auto;
+    margin-bottom: 30px;
+    color: rgb(44, 44, 44);
+}
+
+.letter {
+    display: inline-block;
+    position: relative;
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 25px;
+  }
+
+  .letter.in {
+    transform: rotateX(-90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  .letter.out {
+    transform: rotateX(-90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  .lePerspectiveOutTop span { 
+    animation-name: lePerspectiveOutTop; 
+    animation-duration: 3s;
+    transform: perspective(500px); 
+    transform-style: preserve-3d 
+  }
+
+  @keyframes lePerspectiveOutTop {
+      50% { opacity: 1 }
+      to {
+          transform: perspective(500px) rotateX(90deg) translateY(-50px) translateZ(50px);
+          opacity: 0;
+      }
+  }
+
+
+  .cssanimation, .cssanimation span {
+    animation-name: lePerspectiveOutTop;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    color: red;
+}
+
+.cssanimation span { display: inline-block }
+
+.hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
+@keyframes hu__hu__ {
+    50% { transform: translateY(30px) }
+}

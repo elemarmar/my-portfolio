@@ -4,6 +4,7 @@ import Proyects from  '../Proyects/Proyects';
 import Skills from '../Skills/Skills';
 import Random from '../Random/Random';
 import NavBar from '../NavBar/NavBar';
+import About from '../About/About'
 
 
 const Home = (props) => {
@@ -14,7 +15,7 @@ const Home = (props) => {
             <NavBar />
             {/* <Skills /> */}
             <Proyects />
-            <Random />
+            <About />
         </div>
         
         );

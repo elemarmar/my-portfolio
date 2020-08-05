@@ -1,6 +1,6 @@
 .Presentation {
-    border: 1px solid salmon;
-    padding: 80px 30px 190px;
+    height: 269px;
+    padding: 80px 30px 260px;
     position: relative;
     overflow: hidden;
 }
@@ -75,21 +75,4 @@
 
 
   /********/
-
-  .letter {
-    display: inline-block;
-    position: relative;
-    transform: translateZ(25px);
-    transform-origin: 50% 50% 25px;
-  }
-
-  .letter.in {
-    transform: rotateX(-90deg);
-    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  }
-
-  .letter.out {
-    transform: rotateX(-90deg);
-    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  }
 

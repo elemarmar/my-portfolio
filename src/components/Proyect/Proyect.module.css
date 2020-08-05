@@ -1,21 +1,29 @@
 .Proyect {
     border: solid 1px blue;
-    width: 100%;
+    max-width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 40px;
+    padding: 200px 40px;
 
+}
+
+.ProyectTitle {
+    flex-basis: 100%;
+    color: red;
 }
 
 .ProyectCard {
     width: 400px;
     height: 200px;
     border: solid 1px green;
+    flex-basis: 50%;
 }
 
 .ProyectDescription {
     border: solid 1px rgb(78, 78, 6);
     height: 180px;
     width: 380px;
+    flex-basis: 40%;
 }

@@ -6,7 +6,7 @@ import Contact from '../Contact/Contact';
 import Hello from '../Hello/Hello';
 import messages from '../../api/myLanguages.json';
 import PersonalDescription from '../PersonalDescription/PersonalDescription';
-
+import ContactSocial from '../Contact/ContactSocial';
 
 const Presentation = (props) => {
     const [activeMessage, setActiveMessage] = useState(messages.en);
@@ -21,6 +21,7 @@ const Presentation = (props) => {
         <section className={classes.Presentation}>
 
             <div className={classes.BallTop}></div>
+            <ContactSocial />
             <Hello title={activeMessage.title}/>
             <PersonalDescription activeMessage={activeMessage}/>
             <div className={classes.BallBottom}></div>

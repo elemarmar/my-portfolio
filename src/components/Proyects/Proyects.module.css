@@ -1,9 +1,9 @@
 .Proyects {
+    padding: 300px 50px;
     position: relative;
     z-index: 100;
     border: solid 1px red;
-    height: 900px;
-    background-color: white;
+
 }
 
 .title {

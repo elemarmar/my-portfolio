@@ -1,15 +1,23 @@
 import React from 'react';
-import classes from './Hello.module.css';
+import './Hello.css';
+
 
 
 const Hello = (props) => {
-   
 
     return (
-        <h1 className={classes.PresentationTitle}>
-            <div className="word">
+        <h1 className={"presentation-title"}>
+            <div className="">
                 {props.title}
-            </div>
+                {/* <TextyAnim
+      type="mask-bottom"
+      onEnd={(type ) => {
+        console.log(type);
+      }}
+    >
+      {props.title}
+    </TextyAnim>             */}
+    </div>
         </h1>);
 }
 
