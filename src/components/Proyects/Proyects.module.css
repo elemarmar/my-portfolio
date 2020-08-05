@@ -3,6 +3,7 @@
     position: relative;
     z-index: 100;
     border: solid 1px red;
+    text-align: left;
 
 }
 
@@ -12,4 +13,14 @@
     font-size: 40px;
     border: solid 1px saddlebrown;
     text-align: left;
+    margin-bottom: 0;
+}
+
+.Bar {
+    position: relative;
+    top: -15px;
+    display: inline-block;
+    height: 8px;
+    width: 0;
+    background-color: salmon;
 }
