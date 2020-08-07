@@ -10,7 +10,10 @@ import proyects from '../../api/projects.json';
 const Proyects = (props) => {
 
     const barRef = useRef(null);
-    const intersection = useIntersection(barRef, {
+    const experimentRef = useRef(null);
+
+
+    const intersection = useIntersection(experimentRef, {
         root: null,
         rootMargin: "0px",
         threshold: 0.3
@@ -46,6 +49,7 @@ const Proyects = (props) => {
             tags={proyect.tags}
             images={proyect.image}
             urls={proyect.url}
+            id={proyect.id}
             />
         });
     }

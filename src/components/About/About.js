@@ -17,7 +17,8 @@ const About = (props) => {
                     <p className={classes.Content}>This is a very long text about random stuff. Lorem ipsum and all that.</p>
                 </div>
                     <Switch>
-                        <Route exact path="/education" component={AboutText} />
+                    <Route path="/education" render={() => <p>Hello</p>} />
+                        {/* <Route exact path="/education" component={AboutText} /> */}
 
                     </Switch>
 

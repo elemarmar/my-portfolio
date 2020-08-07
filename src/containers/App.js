@@ -11,13 +11,15 @@ class App extends React.Component {
     return (
       <div className="App">
         <Switch>
+        <Route path="/education" render={() => <p>Hello</p>} />
           <Route 
             path="/" 
             exact
             component={Welcome} />
           <Route 
-            path="/home"
+            path="/home/education"
             component={Home} />
+            
         </Switch>
 
         
