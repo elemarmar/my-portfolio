@@ -22,7 +22,7 @@
     animation-duration: 50000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    background-image: url('../../assets/images/ball.svg');
+    background-image: url('../../assets/images/ballbottom.svg');
     width: 76.5rem;
     height: 72rem;
     background-clip: padding-box;
@@ -54,7 +54,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-    background-image: url(../../assets/images/ballbottom.svg);
+    background-image: url('../../assets/images/ball.svg');
     transition: all ease 1s;
 }
 
