@@ -1,0 +1,56 @@
+.Proyects {
+  padding: 100px 50px;
+  position: relative;
+  z-index: 100;
+  border: solid 1px red;
+  text-align: left;
+  background-color: rgb(206, 232, 231);
+}
+
+.title {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  border: solid 1px saddlebrown;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.Bar {
+  position: relative;
+  top: -15px;
+  display: inline-block;
+  height: 8px;
+  width: 0;
+  background-color: salmon;
+}
+
+.BallBottom {
+  border: solid 1px red;
+  position: sticky;
+  z-index: -1;
+  margin-left: -240px;
+  top: -230px;
+  transform: rotate(-22deg);
+  animation-name: spin;
+  animation-duration: 50000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  width: 46.5rem;
+  height: 42rem;
+  background-clip: padding-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-image: url(../../assets/images/ballbottom.svg);
+  transition: all ease 1s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
