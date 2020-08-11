@@ -24,8 +24,8 @@ const Presentation = (props) => {
     const expand = element => {
     gsap.to(element, 3, {
         opacity: 1,
-        width: 9000,
-        height: 9000,
+        width: 1000, // 9000
+        height: 1000,
         ease: "power4.out",
         stagger: {
             amount: 0.3

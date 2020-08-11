@@ -1,0 +1,48 @@
+.Proyect {
+
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 40px;
+}
+
+.ProyectTitle {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  flex-basis: 100%;
+  color: rgb(28, 52, 124);
+}
+
+.ProyectCard {
+  width: 355px;
+  height: 230px;
+  flex-basis: 355px;
+  background-image: url('../../assets/images/terminal.svg');
+  background-size: 490px;
+  background-position: center;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px #ccc;
+}
+
+.ProyectDescription {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(63, 63, 63);
+  color: rgb(28, 52, 124);
+  /* border: solid 1px rgb(78, 78, 6); */
+  /* height: 180px; */
+  width: 380px;
+  flex-basis: 40%;
+}
+
+.Tags {
+  list-style-type: none;
+}
+.Tags li {
+  background-color: rgb(28, 52, 124);
+  color: white;
+  border-radius: 15px;
+  padding: 4px 5px;
+}

@@ -11,11 +11,11 @@
 
 .Text {
     font-family: 'Poppins', sans-serif;
-    color: blue;
+    color: rgb(101,64,208);
 }
 
 .Text:hover {
-    background-color: blue;
+    background-color: rgb(101,64,208);;
     color: white;
 }
 

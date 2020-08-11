@@ -1,114 +1,128 @@
 [
-    {
-        "id": "1",
-        "title": "Langreader",
-        "description": "A website that allows you to upload a text and study the words, getting translations from words, getting stats, etc.",
-        "tags": ["js", "css", "html"],
-        "image": {
-            "code": "",
-            "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
-        },
-        "url": {
-            "website": "",
-            "repo": "https://github.com/elemarmar/lang-reader"
-        }
+  {
+    "id": "1",
+    "title": "Langreader",
+    "description": "A website that allows you to upload a text and study the words, getting translations from words, getting stats, etc.",
+    "tags": ["js", "css", "html"],
+    "image": {
+      "code": "",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
     },
-    {
-        "id": "2",
-        "title": "Langrecommendator",
-        "description": "This is the description of the project",
-        "tags": ["js", "css", "html"],
-        "image": {
-            "code": "",
-            "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
-        },
-        "url": {
-            "website": "",
-            "repo": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
-        }
-    },
-    {
-        "id": "3",
-        "title": "Anki templates",
-        "description": "This is the description of the project",
-        "tags": ["js", "css", "html"],
-        "image": {
-            "code": "",
-            "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
-        },
-        "url": {
-            "website": "",
-            "repo": ""
-        }
-    },
-    {
-        "id": "4",
-        "title": "Guilty Cinephiles",
-        "description": "This is the description of the project",
-        "tags": ["js", "css", "html"],
-        "image": {
-            "code": "",
-            "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
-        },
-        "url": {
-            "website": "",
-            "repo": ""
-        }
-    },
-    {
-        "id": "5",
-        "title": "MyPokédex",
-        "description": "This is the description of the project",
-        "tags": ["js", "css", "html"],
-        "image": {
-            "code": "",
-            "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
-        },
-        "url": {
-            "website": "",
-            "repo": ""
-        }
-    },
-    {
-        "id": "6",
-        "title": "Quinteto de sudo",
-        "description": "This is the description of the project",
-        "tags": ["js", "css", "html"],
-        "image": {
-            "code": "",
-            "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
-        },
-        "url": {
-            "website": "",
-            "repo": ""
-        }
-    },
-    {
-        "id": "7",
-        "title": "Maniac Coders",
-        "description": "This is the description of the project",
-        "tags": ["js", "css", "html"],
-        "image": {
-            "code": "",
-            "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
-        },
-        "url": {
-            "website": "",
-            "repo": ""
-        }
-    },
-    {
-        "id": "8",
-        "title": "Zodiac thing",
-        "description": "This is the description of the project",
-        "tags": ["js", "css", "html"],
-        "image": {
-            "code": "",
-            "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
-        },
-        "url": {
-            "website": "",
-            "repo": ""
-        }
+    "url": {
+      "website": "",
+      "repo": "https://github.com/elemarmar/lang-reader"
     }
+  },
+  {
+    "id": "2",
+    "title": "Langrecommendator",
+    "description": "This is the description of the project",
+    "tags": ["js", "css", "html"],
+    "image": {
+      "code": "",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+    },
+    "url": {
+      "website": "",
+      "repo": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+    }
+  },
+  {
+    "id": "3",
+    "title": "Anki templates",
+    "description": "This is the description of the project",
+    "tags": ["js", "css", "html"],
+    "image": {
+      "code": "",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+    },
+    "url": {
+      "website": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "4",
+    "title": "Guilty Cinephiles",
+    "description": "This is the description of the project",
+    "tags": ["js", "css", "html"],
+    "image": {
+      "code": "",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+    },
+    "url": {
+      "website": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "5",
+    "title": "MyPokédex",
+    "description": "This is the description of the project",
+    "tags": ["js", "css", "html"],
+    "image": {
+      "code": "",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+    },
+    "url": {
+      "website": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "6",
+    "title": "Quinteto de sudo",
+    "description": "This is the description of the project",
+    "tags": ["js", "css", "html"],
+    "image": {
+      "code": "",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+    },
+    "url": {
+      "website": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "7",
+    "title": "Maniac Coders",
+    "description": "This is the description of the project",
+    "tags": ["js", "css", "html"],
+    "image": {
+      "code": "",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+    },
+    "url": {
+      "website": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "8",
+    "title": "Zodiac thing",
+    "description": "This is the description of the project",
+    "tags": ["js", "css", "html"],
+    "image": {
+      "code": "",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+    },
+    "url": {
+      "website": "",
+      "repo": ""
+    }
+  },
+  {
+    "id": "9",
+    "title": "Rick & Morty character finder",
+    "description": "A SPA that allows the user to see and filter the characters of the Rick & Morty show by season, gender, status and species. It is built with React.",
+    "tags": ["JS", "CSS", "HTML", "SASS", "React"],
+    "image": {
+      "code": "",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+    },
+    "url": {
+      "website": "http://beta.adalab.es/modulo-3-evaluacion-final-elemarmar/",
+      "repo": "https://github.com/elemarmar/modulo-3-evaluacion-final-elemarmar"
+    }
+  }
 ]
