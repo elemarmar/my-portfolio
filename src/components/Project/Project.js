@@ -4,6 +4,7 @@ import classes from './Project.module.css';
 import gsap from 'gsap';
 
 const Proyect = (props) => {
+  console.log(props);
   const sectionRef = useRef(null);
 
   const intersection = useIntersection(sectionRef, {
@@ -39,10 +40,15 @@ const Proyect = (props) => {
     ? fadeOut('.fadeIn-' + props.id)
     : fadeIn('.fadeIn-' + props.id);
 
+
+
   return (
     <div ref={sectionRef} className={`${classes.Proyect} fadeIn-${props.id} `}>
       <h3 className={`${classes.ProyectTitle} `}>{props.title}</h3>
-      <div className={`${classes.ProyectCard}`}></div>
+      <div className={`${classes.ProyectCard}`}>
+      <img className={classes.websitePic} src={props.images.website} />
+      </div>
+
       <div className={`${classes.ProyectDescription}`}>{props.description}</div>
       <ul className={classes.Tags}>
         <li>Tag 1</li>

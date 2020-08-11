@@ -46,3 +46,12 @@
   border-radius: 15px;
   padding: 4px 5px;
 }
+
+
+.websitePic {
+  width: 100%;
+  object-fit: cover;
+  object-position: center 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

@@ -5,8 +5,8 @@
     "description": "A website that allows you to upload a text and study the words, getting translations from words, getting stats, etc.",
     "tags": ["js", "css", "html"],
     "image": {
-      "code": "",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
     },
     "url": {
       "website": "",
@@ -19,12 +19,12 @@
     "description": "This is the description of the project",
     "tags": ["js", "css", "html"],
     "image": {
-      "code": "",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
     },
     "url": {
-      "website": "",
-      "repo": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
+      "repo": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
     }
   },
   {
@@ -33,8 +33,8 @@
     "description": "This is the description of the project",
     "tags": ["js", "css", "html"],
     "image": {
-      "code": "",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
     },
     "url": {
       "website": "",
@@ -47,8 +47,8 @@
     "description": "This is the description of the project",
     "tags": ["js", "css", "html"],
     "image": {
-      "code": "",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
     },
     "url": {
       "website": "",
@@ -61,8 +61,8 @@
     "description": "This is the description of the project",
     "tags": ["js", "css", "html"],
     "image": {
-      "code": "",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
     },
     "url": {
       "website": "",
@@ -75,8 +75,8 @@
     "description": "This is the description of the project",
     "tags": ["js", "css", "html"],
     "image": {
-      "code": "",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
     },
     "url": {
       "website": "",
@@ -89,8 +89,8 @@
     "description": "This is the description of the project",
     "tags": ["js", "css", "html"],
     "image": {
-      "code": "",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
     },
     "url": {
       "website": "",
@@ -103,8 +103,8 @@
     "description": "This is the description of the project",
     "tags": ["js", "css", "html"],
     "image": {
-      "code": "",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
     },
     "url": {
       "website": "",
@@ -117,8 +117,8 @@
     "description": "A SPA that allows the user to see and filter the characters of the Rick & Morty show by season, gender, status and species. It is built with React.",
     "tags": ["JS", "CSS", "HTML", "SASS", "React"],
     "image": {
-      "code": "",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/proyects/cards.png?token=ALTVOUF4QHJYKZ2DG2ZNHMK7FMBJK"
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmortycode.png",
+      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
     },
     "url": {
       "website": "http://beta.adalab.es/modulo-3-evaluacion-final-elemarmar/",
