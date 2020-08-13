@@ -2,25 +2,29 @@
   "en": {
     "title": "hello",
     "name": "I'm Elena ",
-    "description": " I'm a front-end developer with ",
+    "description": " I'm a front-end developer ",
     "extraInfo": [
-      "sooo many ideas",
-      "tons of ideas",
-      "a great deal of ideas",
-      "endless ideas",
-      "super creative ideas"
+      "with a creative spirit",
+      "with tons of ideas",
+      "with attention for detail",
+      "with origami patience",
+      "with the drive to learn",
+      "with a curious mind",
+      "obsessed with languages",
+      "who solves sudokus"
     ]
   },
   "de": {
     "title": "hallo",
     "name": "Ich bin Elena ",
-    "description": " ich bin eine Front-End-Entwickler mit ",
+    "description": " ich bin eine Frontend-Entwicklerin ",
     "extraInfo": [
-      "soooo viele Ideen",
-      "tons of ideas",
-      "kreativen Ideen",
-      "endless ideas",
-      "super creative ideas"
+      "mit einer Menge Ideen",
+      "mit kreativem Geist",
+      "mit einer Leidenschaft für Sprachen",
+      "die sich gerne immer weiter ausbildet",
+      "die gerne Sudoku löst",
+      "mit einer Liebe zum Detail"
     ]
   },
   "es": {
@@ -28,9 +32,10 @@
     "name": "Soy Elena ",
     "description": " soy una desarrolladora front-end con ",
     "extraInfo": [
-      "con muchas ideas",
+      "un espírito creativo",
       "muchísimas ideas",
-      "una mente creativa",
+      "atención a prueba de notificaciones",
+      "paciencia de origami",
       "pasión por el código",
       "ganas de aprender"
     ]
@@ -38,13 +43,13 @@
   "fr": {
     "title": "salut",
     "name": "Je suis Elena ",
-    "description": " je suis une développeuse Front-End avec ",
+    "description": " je suis une développeur front-end ",
     "extraInfo": [
-      "sooo many ideas",
-      "tons of ideas",
-      "a great deal of ideas",
-      "endless ideas",
-      "super creative ideas"
+      "avec un esprit créatif",
+      "pleine d'idées",
+      "avec le désir d'apprendre",
+      "avec le souci du détail",
+      "qui résout des sudokus"
     ]
   }
 }

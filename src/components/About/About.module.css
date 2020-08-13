@@ -1,27 +1,88 @@
 .About {
-    color: white;
-    background-color: rgb(111,70,228);
-    border: solid 2px green;
-    padding: 100px 20px;
+  color: white;
+  /* background-color: rgb(111,70,228); */
+  padding: 10px 20px;
+  position: relative;
+  height: 900px;
+  overflow: hidden;
 }
 
+.title {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: rgb(32, 112, 104);
+  text-align: right;
+  margin-bottom: 0;
+  margin-right: 20px;
+  padding-top: 20px;
+}
 .Menu {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .Menu button {
-    border: none;
-    padding: 3px 5px;
-    background-color: #fff;
-    border-radius: 4px;
-    color: #ff8443;
-    transition: all .5s ease;
+  border: none;
+  padding: 3px 5px;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #ff8443;
+  transition: all 0.5s ease;
 }
 
 .Menu button:hover {
-    cursor: pointer;
-    background-color: rgb(111,70,228);
-    color: white;
+  cursor: pointer;
+  background-color: rgb(111, 70, 228);
+  color: white;
+}
+
+.BallBottom {
+  position: absolute;
+  z-index: -1;
+  right: -240px;
+  top: 30px;
+  transform: rotate(-22deg);
+  animation-name: spin, fadeIn;
+  animation-duration: 30000ms, 0.5s;
+  animation-iteration-count: infinite, 1;
+  animation-timing-function: linear, ease;
+  animation-fill-mode: none, forwards;
+  width: 46.5rem;
+  height: 42rem;
+  background-clip: padding-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-image: url(../../assets/images/ballbottom.svg);
+  transition: all ease 1s;
+}
+
+.Content {
+  border: solid 1px salmon;
+  text-align: right;
+  margin-left: auto;
+  width: 350px;
+  line-height: 1.5;
+  word-spacing: 2px;
+  color: rgb(54, 138, 129);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

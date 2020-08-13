@@ -49,10 +49,11 @@
   margin-left: -240px;
   top: 30px;
   transform: rotate(-22deg);
-  animation-name: spin;
-  animation-duration: 30000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-name: spin, fadeIn;
+  animation-duration: 30000ms, 0.5s;
+  animation-iteration-count: infinite, 1;
+  animation-timing-function: linear, ease;
+  animation-fill-mode: none, forwards;
   width: 46.5rem;
   height: 42rem;
   background-clip: padding-box;
@@ -69,5 +70,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

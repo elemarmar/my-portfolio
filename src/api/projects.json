@@ -3,8 +3,8 @@
     "id": "1",
     "title": "Langreader",
     "descriptions": {
-      "tech": "This SPA was built with React on the client and Node.js on the server. It allows the user to upload a text that gets stored in the server and is processed in node to get individual words to send back to the user. It connects to ZZZ API to get translations from words. It saves information on localstorage to get percentage of words known/unkown.",
-      "user": "Love learning languages and reading? This web application allows you to upload or paste a text and get the individual translations of words when needed (clicking on a word). It includes stats about known and unknown words and frequency of aparition in different texts."
+      "tech": "This SPA was built with React and Node.js. It allows the user to upload a text that is stored in the local server and then processed in Node before retrieving individual words for the user. It connects to a third-party API to fetch translations for each word and stores information on the LocalStorage to calculate the percentage of words known / unknown to the user.",
+      "user": "Love learning languages and reading? After uploading or pasting a text, this web application allows you to receive single word translations by clicking on the desired word. It includes statistics on known and unknown words as well as on word frequency in different texts."
     },
     "tags": ["HTML", "CSS", "SASS", "JS", "React", "APIs", "Node"],
     "image": {
@@ -20,8 +20,8 @@
     "id": "3",
     "title": "Anki templates",
     "descriptions": {
-      "tech": "These templates include simple javascript, HTML and CSS. They are designed for the Anki app, which allows the user to review concepts spaced repetition.",
-      "user": "These are some templates I made for Anki specially focused on learning languages. This was my first step in the world of web development and where I started learning CSS and HTML."
+      "tech": "These templates are built using simple javascript, HTML and CSS. They are designed for Anki, a learning app based on spaced repetition.",
+      "user": "Here are some Anki templates I have created for learning languages. These templates mark my first steps into the world of web development as well as my first contact with CSS and HTML."
     },
     "tags": ["HTML", "CSS", "JS"],
     "image": {
@@ -37,8 +37,8 @@
     "id": "4",
     "title": "Guilty Cinephiles",
     "descriptions": {
-      "tech": "This application was built entirely with javascript, CSS (SASS) and HTML. I also built a local server with node and express to run the website locally. It connects to API TV Maze.",
-      "user": "A series and movie finder that allows the user to filter by genre and add items to favorite series or watched items. It includes a user section with stats (number of movies watched/favorited) a user creation page as well as a landing that welcomes the user once a day."
+      "tech": "This application was built entirely with javascript, CSS (SASS) and HTML. I also built a local server with Node and Express. It connects to the TV Maze API.",
+      "user": "A series finder that allows the user to filter shows by genre and add items to lists (favorite & watched). It includes a user section with statistics (number of shows watched/favorited), a user creation page as well as a landing that welcomes the user once a day."
     },
     "tags": ["HTML", "CSS", "SASS", "JS", "APIs", "Node"],
     "image": {
@@ -54,8 +54,8 @@
     "id": "5",
     "title": "MyPokédex",
     "descriptions": {
-      "tech": "A simple but pretty wepage built with React that connects to an external json.",
-      "user": "A simple page built with React that displays information about pokémons."
+      "tech": "A simple but pretty webpage built with React that connects to an external API.",
+      "user": "A simple page built with React that displays information about Pokémon."
     },
     "tags": ["HTML", "CSS", "JS", "React", "APIs"],
     "image": {
@@ -71,8 +71,8 @@
     "id": "6",
     "title": "Quinteto de sudo ",
     "descriptions": {
-      "tech": "First group project built with HTML, CSS and SASS. It includes a carousel made with html only and a form with formspring.",
-      "user": "A group website with information of its members. It has a form that allows visitors to get in touch with the developers."
+      "tech": "First group project built with HTML, CSS and SASS. It includes a carousel made exclusively with HTML and a form that connects to Formspree.",
+      "user": "A group website with information on its members. It includes a form that allows visitors to get in touch with the developers."
     },
     "tags": ["HTML", "CSS", "SASS"],
     "image": {
@@ -88,7 +88,7 @@
     "id": "7",
     "title": "Maniac Coders Visit Cards",
     "descriptions": {
-      "tech": "A Visit Card generator built with SASS, Javascript and HTML. It includes a chatbot that interacts with the user as he/she fills out the form and a customer carousel with reviews of the website.",
+      "tech": "A Visit Card generator built with SASS, Javascript and HTML. It includes a chatbot that interacts with the user as he/she fills out the form and a carousel with customer reviews of the website.",
       "user": "Create your visit card with this 80s inspired website based on the videogame 'Maniac Mansion: the day of the tentacle'. The user can choose a color palette, upload a picture, add information and create a sharable online visit card that can be easily shared through twitter. Also, do not hover over the 'evil chatbot', he gets angry!"
     },
     "tags": ["HTML", "CSS", "SASS", "JS"],
@@ -105,8 +105,8 @@
     "id": "8",
     "title": "Refactor Visit Card Generator with react",
     "descriptions": {
-      "tech": "This project was based on the visit card project. In this case the purpose was to refactor some inherited code from another team in plain javascript and transform it to React while keeping all functionality. Understanding other people's code.",
-      "user": "A SPA for creating your own visit cards, this time built with React! (Based on an inhrited project)."
+      "tech": "This project was based on the visit card project. In this case the purpose was to refactor some code inherited from another team in plain javascript and to transform it to React while maintaining all functionality.",
+      "user": "A SPA for creating your own visit cards, this time built with React! (Based on an 'inherited' project)."
     },
     "tags": ["HTML", "CSS", "SASS", "JS", "React"],
     "image": {
@@ -122,8 +122,8 @@
     "id": "9",
     "title": "Rick & Morty character finder",
     "descriptions": {
-      "tech": "This SPA was built using Javascript, HTML, CSS and React. I used react router to render different components and redirect the user when necessary. It makes a call to the API blabl to obtain the characters. Organizes the characters by id/name. Filters. The user can search for a character from the address bar by providing the id. It includes a loader.  ",
-      "user": "Wubba Lubba dubbed! This website allows you to search characters of Rick & Morty show by id, name, gender, season they are in, species and status. It is a **spoiler free** website, which means you won't see characters that don't appear on a different season of your choice! Characters are displayed in a beautiful grid where the user can click on a card and get more details on a particular character. It includes cool design, gifs and a special personalized 'Rick & Morty' character type based on the author!"
+      "tech": "This SPA was built using Javascript, HTML, CSS and React. I used react router to render different components and redirect the user when necessary. It makes a call to the API blabl to obtain the characters. Organizes the characters by id/name. Filters. The user can search for a character from the address bar by providing the id. It includes a loader. ",
+      "user": "Wubba Lubba dubbed! This website allows you to search for characters from Rick & Morty by ID, name, gender, season, species and status. It is a spoiler free website, which means you won't see characters beyond your season of your choice! Characters are displayed in a beautiful grid which allows the user to click on individual cards that reveal more details on the selected character. It features a cool design, gifs and a special personalized 'Rick & Morty' character model based on the author!"
     },
     "tags": ["HTML", "CSS", "SASS", "JS", "React"],
     "image": {

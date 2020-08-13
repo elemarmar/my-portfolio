@@ -52,9 +52,9 @@ const Projects = (props) => {
       <div className={classes.ProjectsContainer}>
         <h2 className={`${classes.title} fadeIn`}>Projects</h2>
         <p className={`${classes.ProjectsDescription} fadeIn`} ref={textRef}>
-          Hello these are some of the projects I developed during the 3 month
-          course. I'm currently working on a big and exciting language-learning
-          web application.
+          These are some of the small projects I have developed over the past
+          few months. I'm currently working on a big and exciting
+          language-learning web application.
         </p>
         {renderProjects()}
       </div>
