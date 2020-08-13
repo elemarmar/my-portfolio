@@ -1,14 +1,17 @@
-.Proyect {
+.Project {
+  margin: 0 100px;
+}
 
+.ProjectContainer {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 100px 40px;
+  padding: 100px 40px 10px;
 }
 
-.ProyectTitle {
+.ProjectTitle {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
@@ -16,18 +19,20 @@
   color: rgb(28, 52, 124);
 }
 
-.ProyectCard {
-  width: 355px;
-  height: 230px;
-  flex-basis: 355px;
+.ProjectCard {
+  width: 500px;
+  height: 330px;
+  flex-basis: 500px;
   background-image: url('../../assets/images/terminal.svg');
-  background-size: 490px;
-  background-position: center;
+  background-size: 700px;
+  background-position: -99px center;
   border-radius: 8px;
-  box-shadow: 0 3px 5px #ccc;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.651);
+
+  overflow: hidden;
 }
 
-.ProyectDescription {
+.ProjectDescription {
   font-family: 'Poppins', sans-serif;
   color: rgb(63, 63, 63);
   color: rgb(28, 52, 124);
@@ -35,23 +40,71 @@
   /* height: 180px; */
   width: 380px;
   flex-basis: 40%;
+  text-align: left;
 }
 
 .Tags {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 0;
 }
 .Tags li {
+  font-size: 14px;
   background-color: rgb(28, 52, 124);
   color: white;
   border-radius: 15px;
-  padding: 4px 5px;
+  padding: 4px 9px;
+  margin: 10px;
+  opacity: 0.7;
 }
 
+.Tags li:hover {
+  transform: translateY(3px);
+  opacity: 1;
+}
 
 .websitePic {
-  width: 100%;
-  object-fit: cover;
-  object-position: center 10px;
+  margin-top: 13px;
+  width: 500px;
+  height: 319px;
+  background-size: cover;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  transition: all 0.2s ease;
+}
+
+.ProjectMode {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.ProjectMode span {
+  height: 12px;
+  width: 12px;
+  margin: 0 3px;
+  background-color: rgba(118, 101, 172, 0.582);
+  /* border: 1px solid rgb(101, 64, 208); */
+  border-radius: 50%;
+}
+
+.Project span:hover {
+  cursor: pointer;
+  background-color: rgb(101, 64, 208);
+}
+
+.Project span.active {
+  background-color: rgb(101, 64, 208);
+}
+
+.hiddenImage {
+  opacity: 0;
+}
+
+.activeImage {
+  opacity: 1;
 }

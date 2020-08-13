@@ -1,20 +1,21 @@
 import React from 'react';
 import Presentation from '../Presentation/Presentation';
-import Proyects from '../Projects/Projects';
-import Skills from '../Skills/Skills';
+import Projects from '../Projects/Projects';
 import Random from '../Random/Random';
 import NavBar from '../NavBar/NavBar';
 import About from '../About/About';
-import { Route, Link } from 'react-router-dom';
+import { Route, Link, Switch } from 'react-router-dom';
 
 const Home = (props) => {
   return (
     <div>
       <Presentation />
       <NavBar />
-      {/* <Skills /> */}
-      <Proyects />
-      <About />
+      <Switch>
+        <Route path="/projects" component={Projects} />
+        <Route path="/about" component={About} />
+      </Switch>
+      <Random />
     </div>
   );
 };

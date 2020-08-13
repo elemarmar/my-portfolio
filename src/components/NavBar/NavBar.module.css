@@ -1,13 +1,28 @@
 .NavBar {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    padding-left: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-left: 0;
 }
 
 .NavBar li {
-    border: solid 1px red;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.NavBarLink {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+  transition: all 0.5s ease;
+}
+
+.NavBarLink:hover {
+  color: rgb(32, 112, 104);
+}
+
+.NavBarActive {
+  color: rgb(32, 112, 104);
 }

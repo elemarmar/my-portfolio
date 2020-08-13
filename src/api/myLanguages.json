@@ -1,27 +1,50 @@
 {
-    "en": {
-        "title": "hello",
-        "name": "I'm Elena ",
-        "description": " I'm a front-end developer with ",
-        "extraInfo": ["sooo many ideas", "tons of ideas", "a great deal of ideas", "endless ideas", "super creative ideas"]
-    },
-    "de": {
-        "title": "hallo",
-        "name": "Ich bin Elena ",
-        "description": " ich bin eine Front-End-Entwickler mit ",
-        "extraInfo": ["sooo many ideas", "tons of ideas", "a great deal of ideas", "endless ideas", "super creative ideas"]
-    },
-    "es": {
-        "title": "hola",
-        "name": "Soy Elena ",
-        "description": " soy una desarrolladora front-end con ",
-        "extraInfo": ["con muchas ideas", "muchísimas ideas", "una mente creativa", "pasión por el código", "ganas de aprender"]
-    },
-    "fr": {
-        "title": "salut",
-        "name": "Je suis Elena ",
-        "description": " je suis une développeuse Front-End avec ",
-        "extraInfo": ["sooo many ideas", "tons of ideas", "a great deal of ideas", "endless ideas", "super creative ideas"]
-    },
-    "random": {}
+  "en": {
+    "title": "hello",
+    "name": "I'm Elena ",
+    "description": " I'm a front-end developer with ",
+    "extraInfo": [
+      "sooo many ideas",
+      "tons of ideas",
+      "a great deal of ideas",
+      "endless ideas",
+      "super creative ideas"
+    ]
+  },
+  "de": {
+    "title": "hallo",
+    "name": "Ich bin Elena ",
+    "description": " ich bin eine Front-End-Entwickler mit ",
+    "extraInfo": [
+      "soooo viele Ideen",
+      "tons of ideas",
+      "kreativen Ideen",
+      "endless ideas",
+      "super creative ideas"
+    ]
+  },
+  "es": {
+    "title": "hola",
+    "name": "Soy Elena ",
+    "description": " soy una desarrolladora front-end con ",
+    "extraInfo": [
+      "con muchas ideas",
+      "muchísimas ideas",
+      "una mente creativa",
+      "pasión por el código",
+      "ganas de aprender"
+    ]
+  },
+  "fr": {
+    "title": "salut",
+    "name": "Je suis Elena ",
+    "description": " je suis une développeuse Front-End avec ",
+    "extraInfo": [
+      "sooo many ideas",
+      "tons of ideas",
+      "a great deal of ideas",
+      "endless ideas",
+      "super creative ideas"
+    ]
+  }
 }

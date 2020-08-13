@@ -2,126 +2,136 @@
   {
     "id": "1",
     "title": "Langreader",
-    "description": "A website that allows you to upload a text and study the words, getting translations from words, getting stats, etc.",
-    "tags": ["js", "css", "html"],
+    "descriptions": {
+      "tech": "This SPA was built with React on the client and Node.js on the server. It allows the user to upload a text that gets stored in the server and is processed in node to get individual words to send back to the user. It connects to ZZZ API to get translations from words. It saves information on localstorage to get percentage of words known/unkown.",
+      "user": "Love learning languages and reading? This web application allows you to upload or paste a text and get the individual translations of words when needed (clicking on a word). It includes stats about known and unknown words and frequency of aparition in different texts."
+    },
+    "tags": ["HTML", "CSS", "SASS", "JS", "React", "APIs", "Node"],
     "image": {
       "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
+      "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
     },
     "url": {
-      "website": "",
+      "web": "",
       "repo": "https://github.com/elemarmar/lang-reader"
-    }
-  },
-  {
-    "id": "2",
-    "title": "Langrecommendator",
-    "description": "This is the description of the project",
-    "tags": ["js", "css", "html"],
-    "image": {
-      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
-    },
-    "url": {
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
-      "repo": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
     }
   },
   {
     "id": "3",
     "title": "Anki templates",
-    "description": "This is the description of the project",
-    "tags": ["js", "css", "html"],
+    "descriptions": {
+      "tech": "These templates include simple javascript, HTML and CSS. They are designed for the Anki app, which allows the user to review concepts spaced repetition.",
+      "user": "These are some templates I made for Anki specially focused on learning languages. This was my first step in the world of web development and where I started learning CSS and HTML."
+    },
+    "tags": ["HTML", "CSS", "JS"],
     "image": {
       "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
+      "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/templates.png"
     },
     "url": {
-      "website": "",
+      "web": "",
       "repo": ""
     }
   },
   {
     "id": "4",
     "title": "Guilty Cinephiles",
-    "description": "This is the description of the project",
-    "tags": ["js", "css", "html"],
+    "descriptions": {
+      "tech": "This application was built entirely with javascript, CSS (SASS) and HTML. I also built a local server with node and express to run the website locally. It connects to API TV Maze.",
+      "user": "A series and movie finder that allows the user to filter by genre and add items to favorite series or watched items. It includes a user section with stats (number of movies watched/favorited) a user creation page as well as a landing that welcomes the user once a day."
+    },
+    "tags": ["HTML", "CSS", "SASS", "JS", "APIs", "Node"],
     "image": {
-      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/guiltycinephilescode.png",
+      "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/guiltycinephiles.png"
     },
     "url": {
-      "website": "",
+      "web": "",
       "repo": ""
     }
   },
   {
     "id": "5",
     "title": "MyPokédex",
-    "description": "This is the description of the project",
-    "tags": ["js", "css", "html"],
+    "descriptions": {
+      "tech": "A simple but pretty wepage built with React that connects to an external json.",
+      "user": "A simple page built with React that displays information about pokémons."
+    },
+    "tags": ["HTML", "CSS", "JS", "React", "APIs"],
     "image": {
       "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
+      "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/mypokedex.png"
     },
     "url": {
-      "website": "",
+      "web": "",
       "repo": ""
     }
   },
   {
     "id": "6",
-    "title": "Quinteto de sudo",
-    "description": "This is the description of the project",
-    "tags": ["js", "css", "html"],
+    "title": "Quinteto de sudo ",
+    "descriptions": {
+      "tech": "First group project built with HTML, CSS and SASS. It includes a carousel made with html only and a form with formspring.",
+      "user": "A group website with information of its members. It has a form that allows visitors to get in touch with the developers."
+    },
+    "tags": ["HTML", "CSS", "SASS"],
     "image": {
       "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
+      "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/quinteto.png"
     },
     "url": {
-      "website": "",
+      "web": "",
       "repo": ""
     }
   },
   {
     "id": "7",
-    "title": "Maniac Coders",
-    "description": "This is the description of the project",
-    "tags": ["js", "css", "html"],
+    "title": "Maniac Coders Visit Cards",
+    "descriptions": {
+      "tech": "A Visit Card generator built with SASS, Javascript and HTML. It includes a chatbot that interacts with the user as he/she fills out the form and a customer carousel with reviews of the website.",
+      "user": "Create your visit card with this 80s inspired website based on the videogame 'Maniac Mansion: the day of the tentacle'. The user can choose a color palette, upload a picture, add information and create a sharable online visit card that can be easily shared through twitter. Also, do not hover over the 'evil chatbot', he gets angry!"
+    },
+    "tags": ["HTML", "CSS", "SASS", "JS"],
     "image": {
       "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
+      "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/cards.png"
     },
     "url": {
-      "website": "",
+      "web": "",
       "repo": ""
     }
   },
   {
     "id": "8",
-    "title": "Zodiac thing",
-    "description": "This is the description of the project",
-    "tags": ["js", "css", "html"],
+    "title": "Refactor Visit Card Generator with react",
+    "descriptions": {
+      "tech": "This project was based on the visit card project. In this case the purpose was to refactor some inherited code from another team in plain javascript and transform it to React while keeping all functionality. Understanding other people's code.",
+      "user": "A SPA for creating your own visit cards, this time built with React! (Based on an inhrited project)."
+    },
+    "tags": ["HTML", "CSS", "SASS", "JS", "React"],
     "image": {
       "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
+      "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/cardsreact.png"
     },
     "url": {
-      "website": "",
+      "web": "",
       "repo": ""
     }
   },
   {
     "id": "9",
     "title": "Rick & Morty character finder",
-    "description": "A SPA that allows the user to see and filter the characters of the Rick & Morty show by season, gender, status and species. It is built with React.",
-    "tags": ["JS", "CSS", "HTML", "SASS", "React"],
+    "descriptions": {
+      "tech": "This SPA was built using Javascript, HTML, CSS and React. I used react router to render different components and redirect the user when necessary. It makes a call to the API blabl to obtain the characters. Organizes the characters by id/name. Filters. The user can search for a character from the address bar by providing the id. It includes a loader.  ",
+      "user": "Wubba Lubba dubbed! This website allows you to search characters of Rick & Morty show by id, name, gender, season they are in, species and status. It is a **spoiler free** website, which means you won't see characters that don't appear on a different season of your choice! Characters are displayed in a beautiful grid where the user can click on a card and get more details on a particular character. It includes cool design, gifs and a special personalized 'Rick & Morty' character type based on the author!"
+    },
+    "tags": ["HTML", "CSS", "SASS", "JS", "React"],
     "image": {
       "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmortycode.png",
-      "website": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
+      "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
     },
     "url": {
-      "website": "http://beta.adalab.es/modulo-3-evaluacion-final-elemarmar/",
+      "web": "http://beta.adalab.es/modulo-3-evaluacion-final-elemarmar/",
       "repo": "https://github.com/elemarmar/modulo-3-evaluacion-final-elemarmar"
     }
   }

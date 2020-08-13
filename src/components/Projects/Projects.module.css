@@ -1,4 +1,4 @@
-.Proyects {
+.Projects {
   padding: 100px 50px;
   position: relative;
   z-index: 100;
@@ -8,16 +8,30 @@
 }
 
 .ProjectsContainer {
+  position: relative;
   margin-top: -700px;
 }
-
+.ProjectsDescription {
+  position: absolute;
+  z-index: 5;
+  top: 5px;
+  left: 30px;
+  width: 350px;
+  line-height: 1.5;
+  word-spacing: 2px;
+  color: rgb(54, 138, 129);
+  text-align: left;
+  padding: 90px 0 0;
+}
 .title {
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 500;
   font-size: 40px;
-  border: solid 1px saddlebrown;
+  color: rgb(32, 112, 104);
   text-align: left;
   margin-bottom: 0;
+  margin-left: 20px;
+  padding-top: 20px;
 }
 
 .Bar {
@@ -33,7 +47,7 @@
   position: sticky;
   z-index: -1;
   margin-left: -240px;
-  top: -200px;
+  top: 30px;
   transform: rotate(-22deg);
   animation-name: spin;
   animation-duration: 30000ms;

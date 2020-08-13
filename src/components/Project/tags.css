@@ -1,0 +1,23 @@
+li.JS-tag {
+  background-color: rgb(162, 84, 235);
+}
+li.React-tag {
+  background-color: rgb(122, 62, 172);
+}
+
+li.CSS-tag {
+  background-color: salmon;
+}
+li.HTML-tag {
+  background-color: rgb(255, 160, 71);
+}
+
+li.APIs-tag {
+  background-color: rgb(89, 29, 228);
+}
+li.Node-tag {
+  background: linear-gradient(135deg, #42e695 0%, #3bb2b8 100%);
+}
+li.SASS-tag {
+  background-color: rgb(241, 125, 189);
+}

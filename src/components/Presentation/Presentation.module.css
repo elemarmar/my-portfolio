@@ -1,79 +1,79 @@
 .Presentation {
-    height: 269px;
-    padding: 80px 30px 260px;
-    position: relative;
-    overflow: hidden;
-    font-family: 'Poppins', sans-serif;
+  height: 269px;
+  padding: 80px 30px 260px;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
 }
-
 
 .PresentationName {
-    /* color: white; */
+  /* color: white; */
 }
 
+.BallTop,
+.BallTop2 {
+  position: absolute;
+  z-index: 6;
+  top: -56.25rem;
+  right: -43.75rem;
+  transform: rotate(-142deg);
+  animation-name: spin;
+  animation-duration: 50000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-image: url('../../assets/images/ballbottom.svg');
+  width: 76.5rem;
+  height: 72rem;
+  background-clip: padding-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  transition: all ease 1s;
+}
 
-.BallTop{
-    position: absolute;
-    z-index: 6;
-    top: -56.25rem;
-    right: -43.75rem;
-    transform: rotate(-142deg);
-    animation-name: spin;
-    animation-duration: 50000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    background-image: url('../../assets/images/ballbottom.svg');
-    width: 76.5rem;
-    height: 72rem;
-    background-clip: padding-box;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    transition: all ease 1s;
+.BallTop2 {
+  background-image: url('../../assets/images/ball2.svg');
 }
 
 .BallTop:hover {
-    top: -50rem;
-    right: -40.75rem;
-    cursor: pointer;
+  top: -50rem;
+  right: -40.75rem;
+  cursor: pointer;
 }
 
 .BallBottom {
-    position: absolute;
-    z-index: 1;
-    bottom: -63.125rem;
-    left: -37.5rem;
-    transform: rotate(-22deg);
-    animation-name: spin;
-    animation-duration: 50000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    width: 76.5rem;
-    height: 72rem;
-    background-clip: padding-box;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    background-image: url('../../assets/images/ball.svg');
-    transition: all ease 1s;
+  position: absolute;
+  z-index: 1;
+  bottom: -63.125rem;
+  left: -37.5rem;
+  transform: rotate(-22deg);
+  animation-name: spin;
+  animation-duration: 50000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  width: 76.5rem;
+  height: 72rem;
+  background-clip: padding-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-image: url('../../assets/images/ball.svg');
+  transition: all ease 1s;
 }
 
 .BallBottom:hover {
-    bottom: -65.125rem;
-    left: -40.5rem;
-    cursor: pointer;
+  bottom: -65.125rem;
+  left: -40.5rem;
+  cursor: pointer;
 }
 
-
 @keyframes spin {
-    from {
-      transform:rotate(0deg);
-    }
-    to {
-      transform:rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
   }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
-
-  /********/
-
+/********/

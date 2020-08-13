@@ -1,54 +1,75 @@
 .PresentationText {
-    text-align: left;
-    font-size: 30px;
-    position: relative;
-    z-index: 7;
-    width: 600px;
-    margin: auto;
-    word-spacing: 10px;
-    color: rgb(63, 63, 63);
+  text-align: left;
+  font-size: 30px;
+  position: relative;
+  z-index: 7;
+  width: 600px;
+  margin: auto;
+  word-spacing: 10px;
+  color: rgb(63, 63, 63);
 }
 
 .Text {
-    font-family: 'Poppins', sans-serif;
-    color: rgb(101,64,208);
+  font-family: 'Poppins', sans-serif;
+  /* color: rgb(101,64,208); */
+  /* background-color: rgb(247, 217, 134); */
+  background-color: rgb(255, 159, 148);
+  color: white;
+  padding: 0 10px;
+  border-radius: 4px;
 }
 
 .Text:hover {
-    background-color: rgb(101,64,208);;
-    color: white;
+  background-color: salmon;
+  color: white;
+  color: white;
 }
 
 .PresentationName {
-    display: inline;
+  display: inline;
+  position: relative;
 }
 
 .PersonalDescription {
-    display: inline;
+  display: inline;
 }
 
 .Hello {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    left: -7px;
-    bottom: -6px;
-    animation-name: wave-animation;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    background-image: url(../../assets/images/hellohand.png);
-    background-size: 130%;
-    background-position: center;
-    /* transform-origin: 70% 70%; */
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: -7px;
+  bottom: -6px;
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  background-image: url(../../assets/images/hellohand.png);
+  background-size: 130%;
+  background-position: center;
+  /* transform-origin: 70% 70%; */
 }
 
-@keyframes wave-animation{
-    0%{transform:rotate(0);}
-    10%{transform:rotate(-10deg);}
-    20%{transform:rotate(12deg);}
-    30%{transform:rotate(-10deg);}
-    40%{transform:rotate(9deg);}
-    50%{transform:rotate(0);}
-    100%{transform:rotate(0); }
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }
