@@ -14,6 +14,7 @@ const PersonalDescription = (props) => {
       </span>
       <span className={classes.Text}>
         <TextLoop
+          className={classes.LoopText}
           children={props.activeMessage.extraInfo}
           springConfig={{ stiffness: 180, damping: 10 }}
           interval={4000}

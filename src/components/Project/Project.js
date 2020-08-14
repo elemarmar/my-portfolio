@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import { useIntersection } from 'react-use';
 import classes from './Project.module.scss';
 import gsap from 'gsap';
+import Loader from '../Loader/Loader';
 import './tags.css';
 
 const Project = (props) => {
@@ -68,6 +69,7 @@ const Project = (props) => {
               onClick={handleClick}
               id='web'
             ></span>
+
             <span
               className={imageMode === 'code' ? classes.active : null}
               onClick={handleClick}

@@ -37,7 +37,11 @@
 }
 
 .BallTop2 {
-  background-image: url('../../assets/images/ball2.svg');
+  background-image: url('../../assets/images/ball-alt.svg');
+
+  @include tablet {
+    background-image: url('../../assets/images/ball2.svg');
+  }
 }
 
 .BallTop:hover {
