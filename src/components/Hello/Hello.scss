@@ -1,13 +1,19 @@
+@import '../../assets/stylesheets/mixins.scss';
+
 .presentation-title {
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 500;
-  font-size: 70px;
+  font-size: 50px;
   text-align: left;
   position: relative;
   z-index: 10;
-  /* display: inline-block; */
   max-width: 650px;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: rgb(44, 44, 44);
+
+  @include tablet {
+    margin-bottom: 30px;
+    font-size: 70px;
+  }
 }

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useIntersection } from 'react-use';
 import gsap from 'gsap';
-import classes from './Presentation.module.css';
+import classes from './Presentation.module.scss';
 import LanguagesBar from '../LanguagesBar/LanguagesBar';
 import Contact from '../Contact/Contact';
 import Hello from '../Hello/Hello';

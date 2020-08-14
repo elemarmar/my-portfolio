@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { useIntersection } from 'react-use';
 import gsap from 'gsap';
-import classes from './Projects.module.css';
+import classes from './Projects.module.scss';
 import Project from '../Project/Project';
 import projects from '../../api/projects.json';
 
@@ -56,7 +56,7 @@ const Projects = (props) => {
           few months. I'm currently working on a big and exciting
           language-learning web application.
         </p>
-        {renderProjects()}
+        <div className={classes.ProjectItems}> {renderProjects()}</div>
       </div>
     </div>
   );

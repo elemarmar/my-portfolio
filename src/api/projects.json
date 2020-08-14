@@ -25,7 +25,7 @@
     },
     "tags": ["HTML", "CSS", "JS"],
     "image": {
-      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/templatescode.png",
       "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/templates.png"
     },
     "url": {
@@ -59,7 +59,7 @@
     },
     "tags": ["HTML", "CSS", "JS", "React", "APIs"],
     "image": {
-      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/mypokedexcode.png",
       "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/mypokedex.png"
     },
     "url": {
@@ -76,7 +76,7 @@
     },
     "tags": ["HTML", "CSS", "SASS"],
     "image": {
-      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/quintetocode.png",
       "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/quinteto.png"
     },
     "url": {
@@ -93,8 +93,8 @@
     },
     "tags": ["HTML", "CSS", "SASS", "JS"],
     "image": {
-      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
-      "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/cards.png"
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/cards.png",
+      "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/cards2.png"
     },
     "url": {
       "web": "",
@@ -110,7 +110,7 @@
     },
     "tags": ["HTML", "CSS", "SASS", "JS", "React"],
     "image": {
-      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/cardsreactcode.png",
       "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/cardsreact.png"
     },
     "url": {

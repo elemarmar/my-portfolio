@@ -1,0 +1,155 @@
+@import '../../assets/stylesheets/mixins.scss';
+
+.Contact {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(238, 135, 119); */
+  padding: 20px 60px;
+  position: absolute;
+  bottom: -20px;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  font-size: 16px;
+}
+
+.Email {
+  display: inline-block;
+  color: transparent;
+  height: 20px;
+  width: 20px;
+  background-image: url('../../assets/images/Contact/email.svg');
+  background-size: cover;
+  color: white;
+  position: relative;
+
+  @include tablet {
+    height: 25px;
+    width: 25px;
+  }
+}
+.Email::after {
+  @include tablet {
+    position: absolute;
+    left: -20px;
+    top: 2px;
+    opacity: 0;
+    content: 'elemartinezmarin@gmail.com';
+    transition: opacity 0.9s ease, left 0.5s ease;
+    width: 290px;
+    color: rgb(37, 37, 37);
+  }
+}
+
+.Email:hover {
+  cursor: pointer;
+}
+.Email:hover::after {
+  @include tablet {
+    position: absolute;
+    opacity: 1;
+    left: 10px;
+  }
+}
+
+.Phone {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  @include tablet {
+    height: 25px;
+    width: 25px;
+  }
+  background-image: url('../../assets/images/Contact/phone.svg');
+  color: rgb(37, 37, 37);
+  position: relative;
+}
+.Phone::after {
+  @include tablet {
+    position: absolute;
+    top: 2px;
+    left: -20px;
+    opacity: 1;
+    content: '676353253';
+    transition: opacity 0.9s ease, left 0.5s ease;
+    width: 155px;
+  }
+}
+
+.Phone:hover {
+  cursor: pointer;
+}
+.Phone:hover::after {
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  width: 155px;
+}
+
+.Github {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-image: url('../../assets/images/Contact/github.svg');
+  color: white;
+  background-size: cover;
+  transition: background-color 0.5s ease;
+}
+
+.Github:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.Linkedin {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-image: url('../../assets/images/Contact/linkedin.svg');
+  color: white;
+  background-size: cover;
+  transition: background-color 0.5s ease;
+}
+
+.Linkedin:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.Cv {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  @include tablet {
+    height: 25px;
+    width: 25px;
+  }
+  background-image: url('../../assets/images/contact.svg');
+  background-size: cover;
+}
+
+.Cv:hover {
+  cursor: pointer;
+}
+
+.ContactSocial {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(238, 135, 119); */
+  margin-right: 20px;
+  position: absolute;
+  top: 0;
+  z-index: 50;
+  right: 0;
+  font-size: 16px;
+  width: 90px;
+  padding: 0;
+
+  @include tablet {
+    margin-right: 60px;
+  }
+}

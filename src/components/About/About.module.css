@@ -3,7 +3,7 @@
   /* background-color: rgb(111,70,228); */
   padding: 10px 20px;
   position: relative;
-  height: 900px;
+  /* height: 900px; */
   overflow: hidden;
 }
 
@@ -42,7 +42,7 @@
   position: absolute;
   z-index: -1;
   right: -240px;
-  top: 30px;
+  top: 40px;
   transform: rotate(-22deg);
   animation-name: spin, fadeIn;
   animation-duration: 30000ms, 0.5s;
@@ -60,13 +60,18 @@
 }
 
 .Content {
-  border: solid 1px salmon;
   text-align: right;
   margin-left: auto;
   width: 350px;
   line-height: 1.5;
   word-spacing: 2px;
   color: rgb(54, 138, 129);
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 @keyframes spin {

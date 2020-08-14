@@ -1,9 +1,14 @@
+@import '../../assets/stylesheets/mixins.scss';
+
 .Presentation {
   height: 269px;
-  padding: 80px 30px 260px;
+  padding: 80px 30px 150px;
   position: relative;
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
+  @include tablet {
+    padding: 80px 30px 260px;
+  }
 }
 
 .PresentationName {

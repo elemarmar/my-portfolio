@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Flag-ES</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="25" cy="25" r="25"></circle>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page" transform="translate(-582.000000, -736.000000)">
+            <g id="Fold-1" transform="translate(0.000000, 46.000000)">
+                <g id="Languages" transform="translate(0.000000, 675.000000)">
+                    <g id="Language-3" transform="translate(582.000000, 15.000000)">
+                        <g id="Flag-ES">
+                            <g id="Flag/ES">
+                                <g id="Flag">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <g id="Mask"></g>
+                                    <g id="Spanish" mask="url(#mask-2)">
+                                        <g transform="translate(-4.090909, -5.000000)">
+                                            <rect id="Rectangle-30-Copy" fill="#FFD86F" x="3.86363636" y="4.54545455" width="50.4545455" height="50.9090909"></rect>
+                                            <rect id="Rectangle-30" fill="#FF4442" x="0" y="0" width="58.1818182" height="20.4545455"></rect>
+                                            <rect id="Rectangle-30-Copy-2" fill="#FF4442" x="0" y="40" width="58.1818182" height="20.4545455"></rect>
+                                            <g id="Group" stroke-width="1" fill="none" transform="translate(20.538721, 22.895623)">
+                                                <g id="Group-3" transform="translate(0.000000, 0.000000)">
+                                                    <polygon id="Fill-8" fill="#1A3B71" points="0.11989262 3.28646829 1.64323414 3.28646829 1.64323414 13.9498589 0.11989262 13.9498589"></polygon>
+                                                    <polygon id="Fill-8-Copy" fill="#1A3B71" points="15.7341432 3.28646829 17.2574848 3.28646829 17.2574848 13.9498589 15.7341432 13.9498589"></polygon>
+                                                    <g id="Group-2" transform="translate(3.103558, 0.239785)">
+                                                        <polygon id="Fill-6" fill="#F5A623" points="0.063017563 0 11.1072436 0 11.1072436 3.04668305 0.063017563 3.04668305"></polygon>
+                                                        <path d="M11.1072436,11.3383232 C11.1072436,11.3383232 8.37068721,13.7100737 5.53613035,13.7100737 C2.7015735,13.7100737 0.063017563,11.3383232 0.063017563,11.3383232 L0.063017563,3.04668305 L11.1072436,3.04668305 L11.1072436,11.3383232" id="Fill-7" fill="#EC6366"></path>
+                                                        <path d="M5.58513059,7.997543 L5.58513059,13.7100737 C8.42570114,13.6001949 11.1072436,11.3815775 11.1072436,11.3815775 L11.1072436,7.997543 L5.58513059,7.997543 L5.58513059,7.997543 Z" id="Fill-10" fill="#D0021B"></path>
+                                                        <polygon id="Fill-11" fill="#D0021B" points="0.063017563 3.04668305 5.58513059 3.04668305 5.58513059 7.997543 0.063017563 7.997543"></polygon>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,27 +1,45 @@
+@import '../../assets/stylesheets/mixins.scss';
+
 .Projects {
   padding: 100px 50px;
   position: relative;
   z-index: 100;
-  border: solid 1px red;
   text-align: left;
   background-color: rgb(206, 232, 231);
 }
 
-.ProjectsContainer {
+.projects {
   position: relative;
-  margin-top: -700px;
+}
+
+.ProjectsContainer {
+  @include tablet {
+    position: relative;
+    margin-top: -700px;
+  }
 }
 .ProjectsDescription {
   position: absolute;
   z-index: 5;
   top: 5px;
   left: 30px;
-  width: 350px;
+  width: 250px;
   line-height: 1.5;
   word-spacing: 2px;
   color: rgb(54, 138, 129);
   text-align: left;
   padding: 90px 0 0;
+
+  @include tablet {
+    width: 350px;
+  }
+}
+
+.ProjectItems {
+  margin-top: -290px;
+  @include tablet {
+    margin-top: 0;
+  }
 }
 .title {
   font-family: 'Palanquin Dark', sans-serif;
@@ -32,36 +50,39 @@
   margin-bottom: 0;
   margin-left: 20px;
   padding-top: 20px;
-}
-
-.Bar {
-  position: relative;
-  top: -15px;
-  display: inline-block;
-  height: 8px;
-  width: 0;
-  background-color: salmon;
+  position: absolute;
+  top: -20px;
+  @include tablet {
+    position: relative;
+  }
 }
 
 .BallBottom {
   position: sticky;
   z-index: -1;
-  margin-left: -240px;
-  top: 30px;
+  margin-left: -320px;
+  top: 100px;
   transform: rotate(-22deg);
   animation-name: spin, fadeIn;
   animation-duration: 30000ms, 0.5s;
   animation-iteration-count: infinite, 1;
   animation-timing-function: linear, ease;
   animation-fill-mode: none, forwards;
-  width: 46.5rem;
-  height: 42rem;
+  width: 36.5rem;
+  height: 32rem;
   background-clip: padding-box;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
   background-image: url(../../assets/images/ballbottom.svg);
   transition: all ease 1s;
+
+  @include tablet {
+    width: 46.5rem;
+    height: 42rem;
+    top: 30px;
+    margin-left: -240px;
+  }
 }
 
 @keyframes spin {

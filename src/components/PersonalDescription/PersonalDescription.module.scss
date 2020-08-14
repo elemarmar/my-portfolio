@@ -1,18 +1,24 @@
+@import '../../assets/stylesheets/mixins.scss';
+
 .PresentationText {
+  margin: auto;
+  font-size: 20px;
   text-align: left;
-  font-size: 30px;
   position: relative;
   z-index: 7;
-  width: 600px;
-  margin: auto;
   word-spacing: 10px;
   color: rgb(63, 63, 63);
+  line-height: 1.5;
+
+  width: 300px;
+  @include tablet {
+    width: 600px;
+    font-size: 30px;
+  }
 }
 
 .Text {
   font-family: 'Poppins', sans-serif;
-  /* color: rgb(101,64,208); */
-  /* background-color: rgb(247, 217, 134); */
   background-color: rgb(255, 159, 148);
   color: white;
   padding: 0 10px;

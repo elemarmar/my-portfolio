@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "./static/css/main.41207744.chunk.css",
+    "main.js": "./static/js/main.18c003e4.chunk.js",
+    "main.js.map": "./static/js/main.18c003e4.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.bb42c72b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.bb42c72b.js.map",
+    "static/js/2.29091e2c.chunk.js": "./static/js/2.29091e2c.chunk.js",
+    "static/js/2.29091e2c.chunk.js.map": "./static/js/2.29091e2c.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.cdf80346c8bdf245cdc4e5d5f5fd58c0.js": "./precache-manifest.cdf80346c8bdf245cdc4e5d5f5fd58c0.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.41207744.chunk.css.map": "./static/css/main.41207744.chunk.css.map",
+    "static/js/2.29091e2c.chunk.js.LICENSE.txt": "./static/js/2.29091e2c.chunk.js.LICENSE.txt",
+    "static/media/arrow.svg": "./static/media/arrow.7da2026c.svg",
+    "static/media/Presentation.module.scss": "./static/media/ballbottom.8528973a.svg",
+    "static/media/Contact.module.scss": "./static/media/phone.58b5d0bb.svg",
+    "static/media/deIcon.svg": "./static/media/deIcon.93dd9c7b.svg",
+    "static/media/elena-martinez-marin-cv.pdf": "./static/media/elena-martinez-marin-cv.44aec8e4.pdf",
+    "static/media/enIcon.png": "./static/media/enIcon.b896d7a2.png",
+    "static/media/esIcon.svg": "./static/media/esIcon.3da1fe18.svg",
+    "static/media/frIcon.svg": "./static/media/frIcon.f7d56052.svg",
+    "static/media/PersonalDescription.module.scss": "./static/media/hellohand.7baeed3d.png",
+    "static/media/Project.module.scss": "./static/media/terminal.db580d7e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb42c72b.js",
+    "static/js/2.29091e2c.chunk.js",
+    "static/css/main.41207744.chunk.css",
+    "static/js/main.18c003e4.chunk.js"
+  ]
+}

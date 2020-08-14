@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { useIntersection } from 'react-use';
-import classes from './Project.module.css';
+import classes from './Project.module.scss';
 import gsap from 'gsap';
 import './tags.css';
 
@@ -66,12 +66,12 @@ const Project = (props) => {
             <span
               className={imageMode === 'web' ? classes.active : null}
               onClick={handleClick}
-              id="web"
+              id='web'
             ></span>
             <span
               className={imageMode === 'code' ? classes.active : null}
               onClick={handleClick}
-              id="code"
+              id='code'
             ></span>
           </div>
         </div>

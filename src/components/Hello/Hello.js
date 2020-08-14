@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactCSSTransitionGroup from 'react-transition-group';
-import './Hello.css';
+import './Hello.scss';
 
 const Hello = (props) => {
   const renderHello = () => {
@@ -11,7 +10,7 @@ const Hello = (props) => {
         animationDelay: i * stagger + 'ms',
       };
       return (
-        <span style={style} className="letter in">
+        <span style={style} className='letter in'>
           {c}
         </span>
       );

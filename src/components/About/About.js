@@ -13,34 +13,36 @@ const About = (props) => {
         <span className={classes.AboutIcon}></span>
         <p className={classes.Content}>
           I'm a frontend developer from Madrid with a background in
-          International Relations. I've lived and studied in Spain, Austria,
-          Germany and South Korea.
+          International Relations. I've lived in Spain, Austria, Germany and
+          South Korea. I'm passionate about learning new languages and acquiring
+          new skills. In my free time I do origami, hike, read science fiction
+          and <strong>code</strong>.
         </p>
       </div>
       <Switch>
-        <Route path="/education" render={() => <p>Hello</p>} />
+        <Route path='/education' render={() => <p>Hello</p>} />
         {/* <Route exact path="/education" component={AboutText} /> */}
       </Switch>
 
       <ul className={classes.Menu}>
         <li>
-          <Link to="/experience">
-            <button type="button">experience</button>
+          <Link to='/experience'>
+            <button type='button'>experience</button>
           </Link>
         </li>
         <li>
-          <Link to="/education">
-            <button type="button">education</button>
+          <Link to='/education'>
+            <button type='button'>education</button>
           </Link>
         </li>
         <li>
-          <Link to="/hobbies">
-            <button type="button">hobbies</button>
+          <Link to='/hobbies'>
+            <button type='button'>hobbies</button>
           </Link>
         </li>
         <li>
-          <Link to="/strengths">
-            <button type="button">strengths</button>
+          <Link to='/strengths'>
+            <button type='button'>strengths</button>
           </Link>
         </li>
       </ul>

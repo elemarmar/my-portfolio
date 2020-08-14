@@ -12,10 +12,10 @@ const Home = (props) => {
       <Presentation />
       <NavBar />
       <Switch>
-        <Route path="/projects" component={Projects} />
-        <Route path="/about" component={About} />
+        <Route path='/projects' component={Projects} />
+        <Route path='/about' component={About} />
       </Switch>
-      <Random />
+      {/* <Random /> */}
     </div>
   );
 };
