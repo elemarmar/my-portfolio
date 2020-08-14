@@ -13,7 +13,7 @@
     },
     "url": {
       "web": "",
-      "repo": "https://github.com/elemarmar/lang-reader"
+      "code": "https://github.com/elemarmar/lang-reader"
     }
   },
   {
@@ -30,7 +30,7 @@
     },
     "url": {
       "web": "",
-      "repo": ""
+      "code": ""
     }
   },
   {
@@ -47,7 +47,7 @@
     },
     "url": {
       "web": "",
-      "repo": ""
+      "code": ""
     }
   },
   {
@@ -64,7 +64,7 @@
     },
     "url": {
       "web": "",
-      "repo": ""
+      "code": ""
     }
   },
   {
@@ -81,7 +81,7 @@
     },
     "url": {
       "web": "",
-      "repo": ""
+      "code": ""
     }
   },
   {
@@ -98,7 +98,7 @@
     },
     "url": {
       "web": "",
-      "repo": ""
+      "code": ""
     }
   },
   {
@@ -115,14 +115,14 @@
     },
     "url": {
       "web": "",
-      "repo": ""
+      "code": ""
     }
   },
   {
     "id": "9",
     "title": "Rick & Morty character finder",
     "descriptions": {
-      "tech": "This SPA was built using Javascript, HTML, CSS and React. I used react router to render different components and redirect the user when necessary. It makes a call to the API blabl to obtain the characters. Organizes the characters by id/name. Filters. The user can search for a character from the address bar by providing the id. It includes a loader. ",
+      "tech": "This SPA was built using Javascript, HTML, CSS and React. I used react router to render different components and redirect the user when necessary. It connects to the rick and morty API to obtain characters information. The user can search for a character from the address bar by providing the id. It includes a loader and different filters. ",
       "user": "Wubba Lubba dubbed! This website allows you to search for characters from Rick & Morty by ID, name, gender, season, species and status. It is a spoiler free website, which means you won't see characters beyond your season of your choice! Characters are displayed in a beautiful grid which allows the user to click on individual cards that reveal more details on the selected character. It features a cool design, gifs and a special personalized 'Rick & Morty' character model based on the author!"
     },
     "tags": ["HTML", "CSS", "SASS", "JS", "React"],
@@ -132,7 +132,7 @@
     },
     "url": {
       "web": "http://beta.adalab.es/modulo-3-evaluacion-final-elemarmar/",
-      "repo": "https://github.com/elemarmar/modulo-3-evaluacion-final-elemarmar"
+      "code": "https://github.com/elemarmar/modulo-3-evaluacion-final-elemarmar"
     }
   }
 ]

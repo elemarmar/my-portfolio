@@ -118,6 +118,7 @@
 }
 
 .Cv {
+  position: relative;
   display: inline-block;
   height: 20px;
   width: 20px;
@@ -129,8 +130,26 @@
   background-size: cover;
 }
 
+.Cv::after {
+  @include tablet {
+    font-size: 13px;
+    content: 'Download cv';
+    position: absolute;
+    top: -20px;
+    left: -60px;
+    opacity: 0;
+    transition: all 0.9s ease;
+    width: 155px;
+  }
+}
+
 .Cv:hover {
   cursor: pointer;
+
+  &::after {
+    top: -28px;
+    opacity: 1;
+  }
 }
 
 .ContactSocial {

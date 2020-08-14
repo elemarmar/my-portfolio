@@ -60,9 +60,18 @@ const Project = (props) => {
       <div className={classes.ProjectContainer}>
         <h3 className={`${classes.ProjectTitle} `}>{props.title}</h3>
         <div>
-          <div className={`${classes.ProjectCard}`}>
-            <div style={style} className={classes.websitePic}></div>
-          </div>
+          <a
+            className={classes.Link}
+            href={props.urls[imageMode]}
+            target='_blank'
+          >
+            <div className={`${classes.ProjectCard}`}>
+              <div style={style} className={classes.websitePic}></div>
+              <span class={classes.websitePicText}>
+                Visit {imageMode === 'web' ? 'website' : 'repository'} {'>>'}
+              </span>
+            </div>
+          </a>
           <div className={classes.ProjectMode}>
             <span
               className={imageMode === 'web' ? classes.active : null}

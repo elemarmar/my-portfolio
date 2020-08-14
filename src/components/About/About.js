@@ -19,10 +19,9 @@ const About = (props) => {
           and <strong>code</strong>.
         </p>
       </div>
-      <Switch>
+      {/* <Switch>
         <Route path='/education' render={() => <p>Hello</p>} />
-        {/* <Route exact path="/education" component={AboutText} /> */}
-      </Switch>
+      </Switch> */}
 
       <ul className={classes.Menu}>
         <li>

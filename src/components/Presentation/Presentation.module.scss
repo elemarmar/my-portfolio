@@ -38,9 +38,17 @@
 
 .BallTop2 {
   background-image: url('../../assets/images/ball-alt.svg');
+  //   width: 66.5rem;
+  //   height: 62rem;
+  top: -64rem;
+  right: -43.75rem;
 
   @include tablet {
     background-image: url('../../assets/images/ball2.svg');
+    width: 76.5rem;
+    height: 72rem;
+    top: -56.25rem;
+    right: -43.75rem;
   }
 }
 
