@@ -1,0 +1,119 @@
+.HobbyCard {
+  margin: auto;
+  border-radius: 10px;
+  perspective: 1000;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  background: transparent;
+  strong {
+    color: turquoise;
+  }
+}
+.HobbyImage {
+  display: inline-block;
+  height: 220px;
+  width: 250px;
+  background-image: url('../../../../assets/images/hobbies/origami.jpg');
+  background-size: cover;
+  position: relative;
+}
+.HobbyDescription {
+  font-size: 15px;
+  padding: 0 10px;
+}
+.HobbySkills {
+  list-style: none;
+  text-align: left;
+  font-size: 15px;
+}
+
+.HobbySkillsMeasure {
+  font-size: 12px;
+  padding-left: 5px;
+
+  i {
+    padding: 0 2px;
+  }
+}
+
+/******/
+
+/* flip the pane when clicked */
+.HobbyCard:hover .Flipper,
+.HobbyCard.hover .Flipper {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
+
+.HobbyCard,
+.Front,
+.Back {
+  height: 350px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+/* flip speed goes here */
+.Flipper {
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.Front,
+.Back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  transform: rotateX(0deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 5px 5px #ccc;
+}
+
+/* front pane, placed above back */
+.Front {
+  z-index: 2;
+  background-color: white;
+}
+
+/* back, initially hidden pane */
+.Back {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
+
+  strong {
+    color: white;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+.Back::before {
+  content: '';
+  width: 120px;
+  height: 120px;
+  background-image: url('../../../../assets/images/hobbies/card-icon2.png');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.6;
+  z-index: -1;
+}

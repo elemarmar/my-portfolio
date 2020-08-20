@@ -1,8 +1,11 @@
 import React from 'react';
-import classes from './About.module.css';
+import classes from './About.module.scss';
 import { Link, Route, Switch } from 'react-router-dom';
-import AboutText from './AboutText';
-import Home from '../Home/Home';
+import Education from './Education/Education';
+import Experience from './Experience/Experience';
+import Hobbies from './Hobbies/Hobbies';
+import Skills from './Skills/Skills';
+import avatar from '../../assets/images/avatar.png';
 
 const About = (props) => {
   return (
@@ -10,38 +13,46 @@ const About = (props) => {
       <div className={classes.BallBottom}></div>
       <h2 className={classes.title}>About me</h2>
       <div className={classes.AboutBox}>
-        <span className={classes.AboutIcon}></span>
         <p className={classes.Content}>
-          I'm a frontend developer from Madrid with a background in
-          International Relations. I've lived in Spain, Austria, Germany and
-          South Korea. I'm passionate about learning new languages and acquiring
-          new skills. In my free time I do origami, hike, read science fiction
-          and <strong>code</strong>.
+          I'm a <strong>frontend developer</strong> from Madrid with a
+          background in International Relations. I've lived in Spain, Austria,
+          Germany and South Korea. I'm passionate about learning new languages
+          and acquiring new skills. In my free time I do origami, hike, read
+          science fiction and <strong>code</strong>.
         </p>
+        <figure>
+          <img className={classes.avatar} src={avatar} alt='Little Elena' />
+          <figcaption>
+            Little Elena before she became a Frontend developer
+          </figcaption>
+        </figure>
       </div>
-      {/* <Switch>
-        <Route path='/education' render={() => <p>Hello</p>} />
-      </Switch> */}
+      <Switch>
+        <Route path='/about/education' render={Education} />
+        <Route path='/about/experience' render={Experience} />
+        <Route path='/about/hobbies' render={Hobbies} />
+        <Route path='/about/skills' render={Skills} />
+      </Switch>
 
       <ul className={classes.Menu}>
         <li>
-          <Link to='/experience'>
+          <Link to='/about/experience'>
             <button type='button'>experience</button>
           </Link>
         </li>
         <li>
-          <Link to='/education'>
+          <Link to='/about/education'>
             <button type='button'>education</button>
           </Link>
         </li>
         <li>
-          <Link to='/hobbies'>
+          <Link to='/about/hobbies'>
             <button type='button'>hobbies</button>
           </Link>
         </li>
         <li>
-          <Link to='/strengths'>
-            <button type='button'>strengths</button>
+          <Link to='/about/skills'>
+            <button type='button'>skills</button>
           </Link>
         </li>
       </ul>

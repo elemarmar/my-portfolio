@@ -1,0 +1,47 @@
+.Education {
+  box-sizing: border-box;
+  color: rgb(136, 107, 94);
+  flex-basis: 48%;
+  order: 2;
+  flex-grow: 1;
+  padding: 0 30px;
+  border: solid 1px turquoise;
+  margin-top: -20px;
+}
+
+.EducationSection {
+  border: solid 1px turquoise;
+  padding: 20px 0;
+}
+
+.center {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+
+  strong {
+    color: rgb(55, 194, 180);
+  }
+}
+
+.location {
+  font-size: 13px;
+  display: block;
+  text-align: left;
+  color: rgb(136, 79, 211);
+  padding-left: 30px;
+}
+
+.description {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  text-align: left;
+}
+
+.carousel {
+  border: solid 1px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

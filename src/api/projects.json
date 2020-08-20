@@ -1,15 +1,15 @@
 [
   {
     "id": "1",
-    "title": "Langreader",
+    "title": "Lectura cum vulpes",
     "descriptions": {
       "tech": "This SPA was built with React and Node.js. It allows the user to upload a text that is stored in the local server and then processed in Node before retrieving individual words for the user. It connects to a third-party API to fetch translations for each word and stores information on the LocalStorage to calculate the percentage of words known / unknown to the user.",
       "user": "Love learning languages and reading? After uploading or pasting a text, this web application allows you to receive single word translations by clicking on the desired word. It includes statistics on known and unknown words as well as on word frequency in different texts."
     },
     "tags": ["HTML", "CSS", "SASS", "JS", "React", "APIs", "Node"],
     "image": {
-      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png",
-      "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/rickmorty.png"
+      "code": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/langreader.png",
+      "web": "https://raw.githubusercontent.com/elemarmar/my-portfolio/master/src/assets/images/projects/langreader.png"
     },
     "url": {
       "web": "",

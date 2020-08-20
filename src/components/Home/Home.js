@@ -1,7 +1,6 @@
 import React from 'react';
 import Presentation from '../Presentation/Presentation';
 import Projects from '../Projects/Projects';
-import Random from '../Random/Random';
 import NavBar from '../NavBar/NavBar';
 import About from '../About/About';
 import { Route, Link, Switch } from 'react-router-dom';
@@ -15,7 +14,6 @@ const Home = (props) => {
         <Route path='/projects' component={Projects} />
         <Route path='/about' component={About} />
       </Switch>
-      {/* <Random /> */}
     </div>
   );
 };

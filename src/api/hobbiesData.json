@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Origami master",
+    "description": "I'm an origami master. Always with a piece of paper in the pocket",
+    "class": "origami",
+    "skills": [
+      {
+        "name": "patience",
+        "points": 3
+      },
+      {
+        "name": "perfectionist",
+        "points": 4
+      }
+    ]
+  },
+  {
+    "name": "Hiker",
+    "description": "I love hiking mountains. I have hiked the highest peak in South Korea (Hallasan mountain), the Peñalara, Brocken, SÄchize schwiz",
+    "class": "hike",
+    "skills": [
+      {
+        "name": "nature",
+        "points": 4
+      },
+      {
+        "name": "sporty",
+        "points": 4
+      },
+      {
+        "name": "energetic",
+        "points": 3
+      }
+    ]
+  },
+  {
+    "name": "Language Lover",
+    "description": "Some people study languages. I learn languages for fun. If one day I'm not practicing a language or learning a new one, something's missing.",
+    "class": "languages",
+    "skills": [
+      {
+        "name": "communicative",
+        "points": 3
+      },
+      {
+        "name": "learning",
+        "points": 4
+      },
+      {
+        "name": "active",
+        "points": 3
+      },
+      {
+        "name": "curious",
+        "points": 4
+      }
+    ]
+  },
+  {
+    "name": "Movie amateur",
+    "description": "I'm more of a movie person. I edit videos. I have won two important prizes in high school. this and that.",
+    "class": "cinema",
+    "skills": [
+      {
+        "name": "creative",
+        "points": 4
+      },
+      {
+        "name": "active",
+        "points": 3
+      },
+      {
+        "name": "cinephile",
+        "points": 4
+      }
+    ]
+  },
+  {
+    "name": "Phone sketchers",
+    "class": "artist",
+    "description": "I sketch while on the phone.",
+    "skills": [
+      {
+        "name": "creative",
+        "points": 4
+      },
+      {
+        "name": "active",
+        "points": 2
+      },
+      {
+        "name": "artist",
+        "points": 3
+      }
+    ]
+  }
+]

@@ -5,6 +5,13 @@
   position: relative;
   /* height: 900px; */
   overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.AboutBox {
+  flex-basis: 300px;
+  order: 3;
 }
 
 .title {
@@ -16,11 +23,15 @@
   margin-bottom: 0;
   margin-right: 20px;
   padding-top: 20px;
+  flex-basis: 100%;
+  order: 1;
 }
 .Menu {
+  flex-basis: 100%;
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
+  order: 4;
 }
 
 .Menu button {
@@ -42,7 +53,7 @@
   position: absolute;
   z-index: -1;
   right: -240px;
-  top: 40px;
+  top: 20px;
   transform: rotate(-22deg);
   animation-name: spin, fadeIn;
   animation-duration: 30000ms, 0.5s;
@@ -50,7 +61,7 @@
   animation-timing-function: linear, ease;
   animation-fill-mode: none, forwards;
   width: 46.5rem;
-  height: 42rem;
+  height: 29rem;
   background-clip: padding-box;
   background-repeat: no-repeat;
   background-size: contain;
@@ -60,18 +71,35 @@
 }
 
 .Content {
+  font-size: 13px;
   text-align: right;
   margin-left: auto;
-  width: 350px;
+  width: 300px;
   line-height: 1.5;
   word-spacing: 2px;
   color: rgb(54, 138, 129);
 }
 
 .avatar {
-  width: 200px;
-  height: 200px;
+  display: block;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
+  margin-left: auto;
+  text-align: right;
+  float: right;
+
+  ~ figcaption {
+    font-family: 'Indie Flower', cursive;
+    padding: 20px 0;
+    font-size: 14px;
+    transition: color 0.5s ease;
+    color: rgb(85, 114, 92);
+  }
+
+  &:hover ~ figcaption {
+    color: rgb(176, 81, 214);
+  }
 }
 
 @keyframes spin {

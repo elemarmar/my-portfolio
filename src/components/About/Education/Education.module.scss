@@ -1,0 +1,98 @@
+.Education {
+  box-sizing: border-box;
+  color: rgb(136, 107, 94);
+  flex-basis: 48%;
+  order: 2;
+  flex-grow: 1;
+  padding: 0 30px;
+  margin-top: -20px;
+  position: relative;
+  border: solid 1px orange;
+}
+
+.MinorEducation {
+  position: absolute;
+  top: 500px;
+  right: 20px;
+  color: #368a81;
+  width: 300px;
+
+  border: solid 1px red;
+
+  h4 {
+    color: #207068;
+  }
+  ul {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+}
+
+.EducationSection {
+  padding: 20px 10px;
+  position: relative;
+  margin: auto;
+  max-width: 700px;
+  transition: all 0.5s ease;
+  .date {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    color: rgba(136, 107, 94, 0.651);
+    font-weight: bold;
+  }
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.747);
+    box-shadow: 0 5px 5px #ccc;
+  }
+
+  &::after {
+    content: '';
+    height: 70%;
+    position: absolute;
+    top: 8px;
+    right: -26px;
+    transition: all 0.5s ease;
+    border: dashed 4px transparent;
+  }
+  &:hover::after {
+    content: '';
+    height: 100%;
+    border: dashed 4px rgba(64, 224, 208, 0.712);
+    position: absolute;
+    top: 0;
+    right: -26px;
+  }
+}
+
+.center {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+
+  strong {
+    color: rgb(55, 194, 180);
+  }
+}
+
+.location {
+  font-size: 13px;
+  display: block;
+  text-align: left;
+  color: rgb(136, 79, 211);
+  padding-left: 30px;
+}
+
+.description {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 30px;
+}
