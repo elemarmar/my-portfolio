@@ -21,3 +21,21 @@ li.Node-tag {
 li.SASS-tag {
   background-color: rgb(241, 125, 189);
 }
+
+li.Enzyme-tag {
+  background-color: rgb(104, 96, 100);
+}
+li.Jest-tag {
+  background-color: rgb(141, 134, 137);
+}
+li.SQL-tag {
+  background-color: rgb(241, 204, 125);
+}
+
+li.Other-tag {
+  background-color: rgb(38, 53, 143);
+}
+
+li.Bootstrap-tag {
+  background-color: rgb(204, 125, 241);
+}

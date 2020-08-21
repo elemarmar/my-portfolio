@@ -27,33 +27,17 @@ const Hobby = (props) => {
     return fullPoints;
   };
   return (
-    <div className={classes.HobbyCard}>
+    <div className={`${classes.HobbyCard} ${classes[props.data.class]}`}>
       <div className={classes.FlipContainer}>
         <div className={classes.Flipper}>
           <div className={classes.Front}>
             <h3>{props.data.name}</h3>
             <span className={classes.HobbyImage}></span>
-            <ul className={classes.HobbySkills}>
-              {renderSkills()}
-              <li>
-                perfection
-                <span className={classes.HobbySkillsMeasure}>
-                  <i class='fas fa-circle'></i>
-                  <i class='fas fa-circle'></i>
-                  <i class='fas fa-circle'></i>
-                  <i class='fas fa-circle'></i>
-                </span>
-              </li>
-            </ul>
+            <ul className={classes.HobbySkills}>{renderSkills()}</ul>
           </div>
           <div className={classes.Back}>
-            <h3>
-              <strong>Origami</strong> master
-            </h3>
-            <p className={classes.HobbyDescription}>
-              I'm a master of origami. Always with a piece of paper in my
-              pocket.
-            </p>
+            <h3>{props.data.name}</h3>
+            <p className={classes.HobbyDescription}>{props.data.description}</p>
           </div>
         </div>
       </div>

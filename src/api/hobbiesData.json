@@ -1,23 +1,23 @@
 [
   {
-    "name": "Origami master",
-    "description": "I'm an origami master. Always with a piece of paper in the pocket",
+    "name": "The Origami Master",
+    "description": "A master of the Origami art. The 'Origami Master' always keeps a piece of paper in her pocket in case she finds herself waiting. She's got terrific precision and a calm and patient spirit. ",
     "class": "origami",
     "skills": [
       {
         "name": "patience",
-        "points": 3
+        "points": 4
       },
       {
         "name": "perfectionist",
-        "points": 4
+        "points": 3
       }
     ]
   },
   {
-    "name": "Hiker",
-    "description": "I love hiking mountains. I have hiked the highest peak in South Korea (Hallasan mountain), the Peñalara, Brocken, SÄchize schwiz",
-    "class": "hike",
+    "name": "The Wanderer",
+    "description": "A true nature lover and seeker of adventures. The owner of this card has hiked the highest peak of South Korea (Hallasan) as well as Peñalara (Spain), Sächsische Schweiz (Germany) and many others. Beware of her agility, keep her in sight.",
+    "class": "hiking",
     "skills": [
       {
         "name": "nature",
@@ -34,8 +34,8 @@
     ]
   },
   {
-    "name": "Language Lover",
-    "description": "Some people study languages. I learn languages for fun. If one day I'm not practicing a language or learning a new one, something's missing.",
+    "name": "The Linguaphile",
+    "description": "Some people study languages to open new doors but 'The Linguaphile' learns them for fun. She needs constant exposure to languages, otherwise her day might feel empty. Sprich sie an, sie wartet auf dich! ",
     "class": "languages",
     "skills": [
       {
@@ -43,7 +43,7 @@
         "points": 3
       },
       {
-        "name": "learning",
+        "name": "autodidact",
         "points": 4
       },
       {
@@ -57,40 +57,21 @@
     ]
   },
   {
-    "name": "Movie amateur",
-    "description": "I'm more of a movie person. I edit videos. I have won two important prizes in high school. this and that.",
-    "class": "cinema",
+    "name": "The Sudoku Sensei",
+    "description": "Nothing feels better for the 'Sudoku Sensei' than solving a complex problem. Patient, resolute and rational, the 'Sudoku Sensei' will always persevere.",
+    "class": "sudoku",
     "skills": [
       {
-        "name": "creative",
-        "points": 4
-      },
-      {
-        "name": "active",
+        "name": "patience",
         "points": 3
       },
       {
-        "name": "cinephile",
-        "points": 4
-      }
-    ]
-  },
-  {
-    "name": "Phone sketchers",
-    "class": "artist",
-    "description": "I sketch while on the phone.",
-    "skills": [
-      {
-        "name": "creative",
-        "points": 4
-      },
-      {
-        "name": "active",
-        "points": 2
-      },
-      {
-        "name": "artist",
+        "name": "resolute",
         "points": 3
+      },
+      {
+        "name": "rational",
+        "points": 4
       }
     ]
   }

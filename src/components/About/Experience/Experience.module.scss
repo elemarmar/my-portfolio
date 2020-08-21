@@ -1,11 +1,20 @@
+@import '../../../assets/stylesheets/mixins';
+
 .Experience {
   box-sizing: border-box;
   color: rgb(136, 107, 94);
   flex-basis: 48%;
   order: 2;
   flex-grow: 1;
-  padding: 0 30px;
+  padding: 0 10px;
   margin-top: -20px;
+  @include tablet {
+    padding: 0 30px;
+  }
+
+  h2 {
+    font-family: 'Poppins', sans-serif;
+  }
 }
 
 .ExperienceSection {
@@ -22,26 +31,36 @@
     position: absolute;
     top: 8px;
     right: 20px;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.2);
     font-weight: bold;
+
+    @include tablet {
+      color: rgba(0, 0, 0, 0.4);
+    }
   }
   .descriptionTags {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 20px 30px;
     margin: auto;
     max-width: 400px;
     align-items: center;
+    @include tablet {
+      justify-content: space-evenly;
+    }
     li {
       font-size: 12px;
       background-color: rgb(136, 79, 211);
       color: white;
       padding: 3px 6px;
       border-radius: 10px;
-      margin: 10px 5px;
+      margin: 5px 3px;
       transition: all 0.5s ease;
+      @include tablet {
+        margin: 10px 5px;
+      }
 
       &:hover {
         background-color: rgba(55, 194, 180, 0.774);
@@ -79,6 +98,11 @@
 
 .description {
   font-family: 'Rubik', sans-serif;
-  font-size: 15px;
+  line-height: 1.5;
+  font-size: 14px;
   text-align: left;
+
+  @include tablet {
+    font-size: 15px;
+  }
 }

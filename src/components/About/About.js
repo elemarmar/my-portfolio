@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classes from './About.module.scss';
 import { Link, Route, Switch } from 'react-router-dom';
 import Education from './Education/Education';
@@ -10,8 +10,20 @@ import avatar from '../../assets/images/avatar.png';
 const About = (props) => {
   return (
     <div className={classes.About}>
+      <span className={classes.line}></span>
       <div className={classes.BallBottom}></div>
       <h2 className={classes.title}>About me</h2>
+      <Route
+        exact
+        path='/about'
+        render={() => (
+          <div className={classes.motto}>
+            <p>Übung macht den Meister</p>
+            <p>La práctica hace al maestro</p>
+            <p>Practice makes perfect</p>
+          </div>
+        )}
+      />
       <div className={classes.AboutBox}>
         <p className={classes.Content}>
           I'm a <strong>frontend developer</strong> from Madrid with a

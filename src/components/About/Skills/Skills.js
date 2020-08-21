@@ -1,53 +1,77 @@
 import React, { useState } from 'react';
 import classes from './Skills.module.scss';
+import './../../Project/tags.css';
 
 const Skills = (props) => {
   return (
-    <div className={classes.Education}>
+    <div className={classes.Skills}>
       <h2>Skills</h2>
-      <p>Brief description of my skills</p>
-      <div className={classes.EducationSection}>
+      <p>
+        These are some of the <strong>technologies</strong> that I've used:
+      </p>
+      {/* Render this automatically from json */}
+      <ul className={classes.Tags}>
+        <li className='HTML-tag'>HTML</li>
+        <li className='CSS-tag'>CSS</li>
+        <li className='SASS-tag'>SASS</li>
+        <li className='Bootstrap-tag'>Bootstrap</li>
+        <li className='JS-tag'>JS</li>
+        <li className='React-tag'>React</li>
+        <li className='Node-tag'>Node</li>
+        <li className='Other-tag'>Git</li>
+        <li className='APIs-tag'>APIs</li>
+        <li className='Other-tag'>Gulp</li>
+        <li className='SQL-tag'>SQL</li>
+        <li className='Jest-tag'>Jest</li>
+        <li className='Enzyme-tag'>Enzyme</li>
+      </ul>
+      {/* Create component for each section */}
+      <div className={classes.SkillsSection}>
         <h3 className={classes.center}>
-          <strong>A patient problem solver </strong> with stress shield
+          <strong>A patient problem solver </strong> with a stress shield
         </h3>
-        <p className={classes.description}>origami, sudoku, bugs</p>
+        <p className={classes.description}>
+          I like{' '}
+          <span className={classes.descriptionKey}>solving problems </span>and
+          figuring out where the bug is. I do not get stressed and find
+          enjoyment in
+          <span className={classes.descriptionKey}> challenges</span>.
+        </p>
       </div>
-      <div className={classes.EducationSection}>
+      <div className={classes.SkillsSection}>
         <h3 className={classes.center}>
           <strong>A creative mind </strong> with an eye for detail
         </h3>
         <p className={classes.description}>
-          try to make things appealing, make things work properly
+          I create functional things that are appealing to the eye, creative and
+          fun.
         </p>
       </div>
-      <div className={classes.EducationSection}>
+      <div className={classes.SkillsSection}>
         <h3 className={classes.center}>
-          <strong>A very good and helpful </strong> teammate
+          <strong>A reliable</strong> and <strong> helpful </strong> teammate
         </h3>
         <p className={classes.description}>
-          good leader, share knowledge, pull team, experience in 3 different
-          groups
+          I'm a dedicated and{' '}
+          <span className={classes.descriptionKey}>empathic</span> teammate with
+          practiced{' '}
+          <span className={classes.descriptionKey}>leadership skills</span>.
         </p>
       </div>
-      <div className={classes.EducationSection}>
+      <div className={classes.SkillsSection}>
         <h3 className={classes.center}>
-          <strong>A very responsible and dedicated</strong> worker
+          <strong>An autonomous </strong> person who loves
+          <strong> learning</strong>
         </h3>
         <p className={classes.description}>
-          I like to create a good atmosphere in environment. I'm very
-          responsible and I'm a bit of a perfectionist, I like to... exp. extra
-          features group projects, accepted challenge of 4 tours in a row on
-          saturdays, established a timetable for classes dring university{' '}
-        </p>
-      </div>
-      <div className={classes.EducationSection}>
-        <h3 className={classes.center}>
-          <strong>An autonomous </strong> person who loves{' '}
-          <strong>learning</strong> new things
-        </h3>
-        <p className={classes.description}>
-          all languages, backend things during course. Origami, piano, guitar,
-          saxo
+          I work well on my own, am{' '}
+          <span className={classes.descriptionKey}>
+            always learning new things
+          </span>{' '}
+          and if there is something I don't know,{' '}
+          <span className={classes.descriptionKey}>
+            I know where to find the answer.
+          </span>
         </p>
       </div>
     </div>

@@ -1,6 +1,5 @@
 .HobbyCard {
   margin: auto;
-  border-radius: 10px;
   perspective: 1000;
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
@@ -8,14 +7,116 @@
   strong {
     color: turquoise;
   }
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.origami {
+  .HobbyImage {
+    background-image: url('../../../../assets/images/hobbies/origami.jpg');
+  }
+  .Back::before {
+    background-image: url('../../../../assets/images/hobbies/card-icon-origami.svg');
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+}
+
+.hiking {
+  .HobbyImage {
+    background-image: url('../../../../assets/images/hobbies/hiking.jpeg');
+  }
+  .HobbySkillsMeasure > i {
+    color: #fad961;
+  }
+
+  .Front {
+    background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
+  }
+  .Back {
+    background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
+  }
+
+  .Back::before {
+    background-image: url('../../../../assets/images/hobbies/card-icon-mountain.svg');
+  }
+}
+
+.languages {
+  .HobbyImage {
+    background-image: url('../../../../assets/images/hobbies/languages7');
+    background-position: -90px -80px;
+    background-size: 150%;
+  }
+  .HobbySkillsMeasure > i {
+    color: #17ead9;
+  }
+
+  .Front {
+    background: linear-gradient(135deg, #17ead9 0%, #6078ea 100%);
+  }
+  .Back {
+    background: linear-gradient(135deg, #17ead9 0%, #6078ea 100%);
+  }
+  .Back::before {
+    background-image: url('../../../../assets/images/hobbies/card-icon-languages.png');
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+}
+
+.sudoku {
+  .HobbyImage {
+    background-image: url('../../../../assets/images/hobbies/sudoku');
+  }
+  .Front {
+    background: linear-gradient(135deg, #f36265 0%, #961276 100%);
+  }
+  .Back {
+    background: linear-gradient(135deg, #f36265 0%, #961276 100%);
+  }
+  .HobbySkillsMeasure > i {
+    color: #f36265;
+  }
+  .Back::before {
+    background-image: url('../../../../assets/images/hobbies/card-icon-sudoku.svg');
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+}
+
+.artist {
+  .HobbyImage {
+    background-image: url('../../../../assets/images/hobbies/movies.png');
+    background-position: center;
+  }
+  .Front {
+    background: linear-gradient(135deg, #dfec51 0%, #73aa0a 100%);
+  }
+  .Back {
+    background: linear-gradient(135deg, #dfec51 0%, #73aa0a 100%);
+  }
+  .HobbySkillsMeasure > i {
+    color: #dfec51;
+  }
+  .Back::before {
+    background-image: url('../../../../assets/images/hobbies/card-icon-cinema.png');
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
 }
 .HobbyImage {
   display: inline-block;
-  height: 220px;
-  width: 250px;
-  background-image: url('../../../../assets/images/hobbies/origami.jpg');
+  height: 100%;
+  width: 230px;
+  margin: auto;
   background-size: cover;
   position: relative;
+  flex-grow: 1;
+  border-radius: 10px;
 }
 .HobbyDescription {
   font-size: 15px;
@@ -25,6 +126,9 @@
   list-style: none;
   text-align: left;
   font-size: 15px;
+  margin: 0;
+  padding: 10px 30px;
+  color: white;
 }
 
 .HobbySkillsMeasure {
@@ -33,6 +137,7 @@
 
   i {
     padding: 0 2px;
+    color: #ce9ffc;
   }
 }
 
@@ -51,7 +156,7 @@
 .Back {
   height: 350px;
   width: 250px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 /* flip speed goes here */
@@ -82,6 +187,9 @@
 .Front {
   z-index: 2;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
 }
 
 /* back, initially hidden pane */
@@ -92,8 +200,7 @@
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
-
+  background: linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
   strong {
     color: white;
   }

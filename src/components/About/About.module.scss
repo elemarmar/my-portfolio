@@ -1,3 +1,20 @@
+@import '../../assets/stylesheets/mixins';
+.line {
+  //   position: absolute;
+  display: block;
+  //   top: 80px;
+  z-index: -1;
+  //   width: 60%;
+  //   margin-left: 100px;
+  //   height: 100px;
+  width: 100%;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 255px 15px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+  border-top: dotted 2px #5857544f;
+}
+
 .About {
   color: white;
   /* background-color: rgb(111,70,228); */
@@ -6,12 +23,21 @@
   /* height: 900px; */
   overflow: hidden;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+
+  @include tablet {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .AboutBox {
   flex-basis: 300px;
-  order: 3;
+  order: 1;
+
+  @include tablet {
+    order: 3;
+  }
 }
 
 .title {
@@ -32,6 +58,7 @@
   display: flex;
   justify-content: space-evenly;
   order: 4;
+  margin-top: 50px;
 }
 
 .Menu button {
@@ -41,19 +68,25 @@
   border-radius: 4px;
   color: #ff8443;
   transition: all 0.5s ease;
-}
 
-.Menu button:hover {
-  cursor: pointer;
-  background-color: rgb(111, 70, 228);
-  color: white;
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(111, 70, 228);
+    color: white;
+  }
+
+  &:focus {
+    outline: none;
+    color: white;
+    background-color: rgba(148, 129, 115, 0.205);
+  }
 }
 
 .BallBottom {
   position: absolute;
   z-index: -1;
   right: -240px;
-  top: 20px;
+  top: 30px;
   transform: rotate(-22deg);
   animation-name: spin, fadeIn;
   animation-duration: 30000ms, 0.5s;
@@ -61,12 +94,12 @@
   animation-timing-function: linear, ease;
   animation-fill-mode: none, forwards;
   width: 46.5rem;
-  height: 29rem;
+  height: 27rem;
   background-clip: padding-box;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
-  background-image: url(../../assets/images/ballbottom.svg);
+  background-image: url(../../assets/images/ball-about.svg);
   transition: all ease 1s;
 }
 
@@ -117,5 +150,25 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+.motto {
+  flex-grow: 1;
+  order: 2;
+  color: rgba(128, 128, 128, 0.404);
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+  font-family: 'Baloo Tamma 2', cursive;
+  margin-top: 70px;
+  @include tablet {
+    font-size: 22px;
+    margin-top: 0;
+  }
+  p {
+    transition: color 0.8s ease;
+  }
+  p:hover {
+    color: rgb(128, 128, 128);
   }
 }

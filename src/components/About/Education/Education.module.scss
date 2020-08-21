@@ -1,28 +1,50 @@
+@import '../../../assets/stylesheets/mixins';
 .Education {
   box-sizing: border-box;
   color: rgb(136, 107, 94);
   flex-basis: 48%;
   order: 2;
   flex-grow: 1;
-  padding: 0 30px;
+  padding: 0 10px;
   margin-top: -20px;
   position: relative;
-  border: solid 1px orange;
+  @include tablet {
+    padding: 0 30px;
+  }
+  h2 {
+    font-family: 'Poppins', sans-serif;
+  }
 }
 
 .MinorEducation {
-  position: absolute;
-  top: 500px;
-  right: 20px;
-  color: #368a81;
-  width: 300px;
+  order: 4;
 
-  border: solid 1px red;
+  color: rgb(136, 107, 94);
+  width: 300px;
+  background: transparent;
+  padding: 0.5rem 0.5rem;
+  margin: 30px 0.5rem;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.418);
+
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+  border: solid 2px #41403e7a;
+
+  @include tablet {
+    position: absolute;
+    top: 500px;
+    right: 20px;
+    margin: 0 0.5rem;
+  }
 
   h4 {
     color: #207068;
   }
   ul {
+    list-style-type: square;
     text-align: left;
     font-size: 14px;
     line-height: 1.5;
@@ -57,9 +79,12 @@
     height: 70%;
     position: absolute;
     top: 8px;
-    right: -26px;
+    right: -20px;
     transition: all 0.5s ease;
     border: dashed 4px transparent;
+    @include tablet {
+      right: -26px;
+    }
   }
   &:hover::after {
     content: '';
@@ -67,7 +92,6 @@
     border: dashed 4px rgba(64, 224, 208, 0.712);
     position: absolute;
     top: 0;
-    right: -26px;
   }
 }
 
@@ -87,12 +111,22 @@
   display: block;
   text-align: left;
   color: rgb(136, 79, 211);
-  padding-left: 30px;
+
+  padding-left: 15px;
+  @include tablet {
+    padding-left: 30px;
+  }
 }
 
 .description {
   font-family: 'Rubik', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   text-align: left;
-  padding-left: 30px;
+  padding-left: 15px;
+  line-height: 1.5;
+
+  @include tablet {
+    padding-left: 30px;
+    font-size: 15px;
+  }
 }

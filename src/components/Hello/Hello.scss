@@ -17,3 +17,20 @@
     font-size: 70px;
   }
 }
+
+.letter.in {
+  animation-name: fadeInUp;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

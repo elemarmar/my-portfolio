@@ -17,28 +17,22 @@ const Education = (props) => {
           </span>
           <ul className={classes.description}>
             <li>
-              Maquetación: <strong>HTML5</strong>, <strong>CSS3</strong>,
-              Flexbox, CSS Grid, <strong>SASS</strong>, Bootstrap
+              <strong>HTML5</strong>, <strong>CSS3</strong>, Flexbox, CSS Grid,{' '}
+              <strong>SASS</strong>, Bootstrap
             </li>
             <li>
-              <strong>JavaScript</strong> (ES6) y servicios web (
-              <strong>APIs</strong>) de terceros
-            </li>
-
-            <li>
-              Control de versiones con <strong>Git</strong>
+              <strong>JavaScript</strong> (ES6) & <strong>APIs</strong>
             </li>
             <li>
-              Creación de SPAs sencillas con <strong>React</strong>
+              Version control with <strong>Git</strong>
             </li>
             <li>
-              Manejo de Slack, Trello, Github, VSCode, Gulp, Terminal, Linter,
-              Zeplin
+              Creating simple SPAs with <strong>React</strong>
             </li>
             <li>
-              Experiencia en el desarrollo de proyectos usando filosofía Ágil y
-              marco de trabajo Scrum
+              Slack, Trello, Github, VSCode, Gulp, Terminal, Linter, Zeplin
             </li>
+            <li>Experience in project development using Agile and Scrum</li>
           </ul>
         </div>
         <div className={classes.EducationSection}>
@@ -51,8 +45,8 @@ const Education = (props) => {
             Madrid (Spain)
           </span>
           <p className={classes.description}>
-            International Law, Universal History, Economy, European Law, EU
-            Political System, IR theory, International Organizations.
+            International law, universal history, economy, European law, EU
+            political system and international organizations
           </p>
         </div>
 
@@ -67,9 +61,8 @@ const Education = (props) => {
             <i class='fas fa-map-marker-alt'></i> Seoul (South Korea)
           </span>
           <p className={classes.description}>
-            Focused on Asia Pacific politics, especifically China - South Korea
-            - Japan relations and foreign policies, North - South Korean
-            relations and EU relations with South Korea.
+            Asia Pacific politics (China, South Korea and Japan) and North Korea
+            - South Korea relations
           </p>
         </div>
         <div className={classes.EducationSection}>
@@ -83,8 +76,8 @@ const Education = (props) => {
             (Austria)
           </span>
           <p className={classes.description}>
-            Mainly focused on European Union politics, its communitary policies
-            and cybersecurity strategy.
+            European Union politics, communitary policies and cybersecurity
+            strategy
           </p>
         </div>
       </div>
@@ -92,20 +85,20 @@ const Education = (props) => {
         <h4>Other education</h4>
         <ul>
           <li>
-            I've taken courses in python, excel & LaTex (
+            Courses in Python, Excel & LaTex (
             <abbr title='Universidad Complutense de Madrid'>UCM</abbr>)
           </li>
           <li>
-            I have a certificate on business protocol in China, Korea and Japan
-            (Casa Asia)
+            Certificate on business protocol in China, Korea and Japan (Casa
+            Asia)
           </li>
           <li>
-            I have completed numerous courses on the topic of international
-            relations in Spain and abroad
+            Numerous courses on the topic of international relations in Spain
+            and abroad
           </li>
           <li>
-            I'm <span className={classes.always}>ALWAYS</span> learning
-            something new.
+            <span className={classes.always}>ALWAYS</span> looking to learn
+            something new
           </li>
         </ul>
       </div>

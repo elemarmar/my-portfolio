@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classes from './Experience.module.scss';
 
 const Experience = (props) => {
@@ -14,13 +14,11 @@ const Experience = (props) => {
           <i class='fas fa-map-marker-alt'></i> Madrid (Spain)
         </span>
         <ul className={classes.description}>
-          <li>I created personalized material for each student.</li>
+          <li>Created personalized material for each student</li>
           <li>
-            Taught regularly to more than 50 students from different countries.
+            Taught regularly to more than 50 students from different countries
           </li>
-          <li>
-            I had to improvise different ways of explaining the same topic.
-          </li>
+          <li>Improvised various strategies based on students' needs</li>
         </ul>
         <ul className={classes.descriptionTags}>
           <li>improvisation</li>
@@ -42,20 +40,15 @@ const Experience = (props) => {
         </span>
         <ul className={classes.description}>
           <li>
-            I was in charge of giving guided tours in Spanish, French and
-            English to individuals and schools.
+            In charge of giving guided tours in Spanish, French and English to
+            individuals and schools
           </li>
           <li>
-            I had to maintain the museum, prepare it for tours and in charge of
-            its closure and the good state of all robots.
+            Oversaw general museum maintenance (opening, closing and general
+            preparations)
           </li>
           <li>
-            I modulated my speech according to the audience and their expertise
-            on robotics.
-          </li>
-          <li>
-            {' '}
-            For some time, I was the only person in charge of the guided tours.
+            Adapted to different audiences (children, adults, connoisseur, etc.)
           </li>
         </ul>
         <ul className={classes.descriptionTags}>
